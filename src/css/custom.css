@@ -1,0 +1,180 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #00D3C2; 
+  --ifm-color-secondary: #9D4DF1;
+  --ifm-color-tertiary: #0c2a4d;
+  --ifm-font-family-base: 'Metropolis', sans-serif;
+  --ifm-background-color:#d8e0f2;
+  --ifm-background-surface-color:#f1f4f9;
+  --ifm-menu-color-background-hover: linear-gradient(0deg, #0c2a4d, #15375e);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #00D3C2;
+  --ifm-background-color:#222328;
+  --ifm-background-surface-color:#3f414a;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Typography */
+@font-face {
+  font-family: 'Metropolis Medium';
+  src: url('../font/metropolis-medium.woff') format('woff');
+  src: url('../font/metropolis-medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis Medium Italic';
+  src: url('../font/metropolis-mediumitalic.woff') format('woff');
+  src: url('../font/metropolis-mediumitalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolics Semibold';
+  src: url('../font/metropolis-semibold.woff') format('woff');
+  src: url('../font/metropolis-semibold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Metropolis Medium', sans-serif;
+  color: #49546a;
+}
+
+body {
+  font-family: 'Metropolis Medium', sans-serif;
+  color: rgba(73,84,106,0.75);
+}
+
+strong {
+  color: #49546a;
+}
+
+a {
+  color: #00D3C2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00D3C2;
+  text-decoration: 2px underline #00D3C2;
+}
+
+p a {
+  opacity: 100%;
+}
+
+.markdown h1:first-child {
+  margin-bottom: 10px;
+}
+
+h1 + p {
+  font-size: 20px;
+}
+
+
+
+
+/* Navigation bar */
+.navbar {
+  background-color: var(--ifm-background-color);
+  margin-top: 25px;
+  margin: 25px 15px 0px 15px;
+}
+
+.navbar__title, .navbar__link {
+  color: rgba(73,84,106,0.75);
+  font-size: 18px;
+}
+
+.navbar__link:hover {
+  text-decoration: 2px underline #2ca9b7;
+  background: transparent;
+  color: #00D3C2;
+}
+
+.navbar__items--right > a:last-child {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 18px;
+  padding: 3px 20px;
+  line-height: 35px;
+}
+
+.navbar__items--right > a:last-child:hover {
+  background-color: #087083;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+[class*='iconExternalLink'] {
+  display: none;
+}
+
+
+.navbar-sidebar {
+  background-color: var(--ifm-color-secondary);
+}
+
+
+/* Sidebar */
+.sidebar {
+  background-color: #d8e0f2;
+}
+
+.sidebar__link {
+  color: var(--ifm-color-primary);
+}
+
+
+.table-of-contents__link:hover {
+  text-decoration: 1px underline #2ca9b7;
+  background: transparent;
+}
+
+
+/* Buttons */
+.button {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #087083;
+  color: #fff;
+}
+
+
+
+/* Footer */
+.footer {
+  background-color: #d8e0f2;;
+  color: rgba(73,84,106,0.75);
+}
+
+.footer__copyright {
+  color: rgba(73,84,106,0.75);
+}
+
+

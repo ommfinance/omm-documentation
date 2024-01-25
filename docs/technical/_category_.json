@@ -1,0 +1,8 @@
+{
+  "label": "Technical docs",
+  "position": 13,
+  "link": {
+    "type": "generated-index",
+    "description": "Read about the inner workings of Balanced, interact with the smart contracts, and more."
+  }
+}

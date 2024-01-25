@@ -1,0 +1,103 @@
+---
+id: supply-liquidity
+title: Supply liquidity
+description: Learn how to supply assets to a liquidity pool on Balanced.
+slug: /supply-liquidity
+sidebar_position: 4
+---
+
+# Supply liquidity
+Learn how to supply assets to a liquidity pool on Balanced.
+
+Supply assets to the Balanced decentralised exchange. Liquidity pools receive 50% of the trading fees, and if you supply liquidity to a [Balanced-incentivised pool](/incentivise-liquidity), you’ll earn Balance Tokens daily.
+
+Most pools require an equal value of two assets, so the supply ratio will fluctuate over time. [Use this impermanent loss calculator](https://dailydefi.org/tools/impermanent-loss-calculator/) to see how price changes will affect your position.
+
+
+## Supply assets
+
+Go to [Trade > Supply](https://app.balanced.network/trade/supply), then:
+
+<div className="row">
+	<div className="col col--7">
+		<ol>
+			<li>Choose which assets to supply. The first can be from another blockchain, and you can pair it with bnUSD, BTCB, sICX, or IUSDC.</li>
+			<li>Enter the amount to supply. (Aside from the ICX-only queue, existing pools require two assets of equal value. Create a new pool to set your own price ratio.)</li>
+			<li>Click Supply or ‘Create pool’, then follow the prompts to add liquidity to the pool.</li>
+		</ol>
+	</div>
+	<div className="col col--5">
+		<img src="/img/supply-liquidity.png" alt="The Supply tab on the Trade page, set to supply liquidity to the sICX/bnUSD pool" width="400px" /> 
+	</div>
+</div>
+
+:::note Can’t see your liquidity?
+If you supply liquidity but don’t see it in the app, or you leave the page before the transaction is complete, try to supply a small amount to the same pool. You’ll see your assets in the contract and can remove them.
+
+Make sure you leave at least 2-3 ICX in your wallet to cover the transaction fees.
+:::
+
+
+## Stake LP Tokens
+To earn rewards for BALN-incentivised pools, you need to stake LP Tokens, which represent your position in the pool:
+
+<ol>
+	<li>Click to expand the pool in the Liquidity Pools section.</li>
+	<li>Click ‘Adjust stake’ and use the slider to stake your LP Tokens.</li>
+	<li>Confirm the transaction.</li>
+</ol>
+
+<img src="/img/stake-lp-tokens.png" alt="The Liquidity Pools section, set to 'Your pools' with a pool expanded to demonstrate how to stake LP Tokens" width="100%" /> 
+
+You’ll earn BALN as long as your LP Tokens are staked, and you’ll need to unstake them before you can withdraw your liquidity. The ICX pool doesn’t require LP Tokens: you’ll earn BALN automatically.
+
+:::tip Lock up BALN
+To earn maximum BALN rewards for your liquidity position, [lock up Balance Tokens](/lock-BALN).
+:::
+
+
+---
+
+## Withdraw liquidity
+To withdraw liquidity, click to expand your pool in the Liquidity Pools section.
+
+Unstake your LP Tokens if staked, then choose the amount to withdraw and complete the transaction.
+
+If you’re in the sICX/ICX pool, you don’t need to unstake any LP Tokens: click ICX or sICX to withdraw the full amount.
+
+If you don’t see your liquidity details for a [third-party liquidity pool](#third-party-pools), make sure you haven’t staked your LP Tokens on another platform.
+
+---
+
+## About the liquidity pools
+Some of the liquidity pools on Balanced behave differently to others, as outlined below.
+
+### ICX queue
+The ICX queue is not a traditional liquidity pool. It operates like an order queue that follows the First In First Out (FIFO) method, and there’s no risk of impermanent loss.
+
+While your order is open, you’ll earn Balance Tokens.
+
+When your ICX has been converted to sICX, your order is filled. As you’re no longer supplying ICX, you stop earning Balance Tokens, but sICX earns ICON staking rewards.
+
+To convert sICX back to ICX, swap it on the Trade page for a 1% fee, or unstake it from the wallet section. Depending on the volume of unstaking requests, this could take 1 hour, or up to ~7 days.
+
+
+### BALN-incentivised pools
+Liquidity pools that are important for trading on Balanced are incentivised with some of the daily Balance Token inflation.
+
+To view all liquidity pools that offer incentives, go to [Trade > Supply](https://app.balanced.network/trade/supply) and check the Liquidity Pools section.
+
+To earn BALN for supplying liquidity to these pools, [stake your LP Tokens](#stake-lp-tokens). To maximise your BALN rewards, [lock up Balance Tokens](/lock-BALN).
+
+To influence the liquidity incentives, [learn how to incentivise liquidity pools](/incentivise-liquidity).
+
+### Cross-chain pools
+For the optimal trading experience, all liquidity is held on the ICON blockchain and sent to the destination chain at the time of a swap.
+
+When you supply liquidity for a cross-chain asset, it gets transferred to ICON during the confirmation process.  You’ll need an ICON wallet to complete the transaction and stake your LP Tokens.
+
+
+### Third-party liquidity pools {#third-party-pools}
+Pools that aren’t incentivised by Balance Tokens only receive 50% of the fees generated by swaps within their pool.
+
+Liquidity providers may be able to earn additional rewards by staking their LP Tokens on another platform (like [Craft](https://craft.network/cft#bribes)). While your LP Tokens are staked, you won’t be able to view your liquidity details for that pool on Balanced, and will have to unstake your LP Tokens before you can withdraw your assets from the pool.
