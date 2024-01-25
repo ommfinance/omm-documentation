@@ -1,0 +1,577 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/lisaverheul/GitHub/omm-documentation/sidebars.js",
+          "contentPath": "/Users/lisaverheul/GitHub/omm-documentation/docs",
+          "contentPathLocalized": "/Users/lisaverheul/GitHub/omm-documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "borrow-bnusd",
+              "title": "Borrow Balanced Dollars",
+              "description": "Learn how to deposit collateral, borrow bnUSD, optimise your risk, and close your position.",
+              "source": "@site/docs/borrow-bnusd.md",
+              "sourceDirName": ".",
+              "slug": "/borrow-bnusd",
+              "permalink": "/borrow-bnusd",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "borrow-bnusd",
+                "title": "Borrow Balanced Dollars",
+                "description": "Learn how to deposit collateral, borrow bnUSD, optimise your risk, and close your position.",
+                "slug": "/borrow-bnusd",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Swap assets",
+                "permalink": "/swap-assets"
+              }
+            },
+            {
+              "id": "claim-rewards",
+              "title": "Claim rewards",
+              "description": "Learn how to earn and claim Balance Tokens and network fees.",
+              "source": "@site/docs/claim-rewards.md",
+              "sourceDirName": ".",
+              "slug": "/claim-rewards",
+              "permalink": "/claim-rewards",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "id": "claim-rewards",
+                "title": "Claim rewards",
+                "description": "Learn how to earn and claim Balance Tokens and network fees.",
+                "slug": "/claim-rewards",
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Transfer assets cross-chain",
+                "permalink": "/transfer-cross-chain"
+              },
+              "next": {
+                "title": "Lock up Balance Tokens",
+                "permalink": "/lock-baln"
+              }
+            },
+            {
+              "id": "incentivise-liquidity",
+              "title": "Incentivise liquidity pools",
+              "description": "Learn how to influence the BALN incentives for each liquidity pool.",
+              "source": "@site/docs/incentivise-liquidity.md",
+              "sourceDirName": ".",
+              "slug": "/incentivise-liquidity",
+              "permalink": "/incentivise-liquidity",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "id": "incentivise-liquidity",
+                "title": "Incentivise liquidity pools",
+                "description": "Learn how to influence the BALN incentives for each liquidity pool.",
+                "slug": "/incentivise-liquidity",
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Lock up Balance Tokens",
+                "permalink": "/lock-baln"
+              },
+              "next": {
+                "title": "Participate in governance",
+                "permalink": "/participate-governance"
+              }
+            },
+            {
+              "id": "introduction",
+              "title": "Introduction",
+              "description": "The documentation site for Balanced, a DeFi project that’s home to the Balanced Dollar stablecoin (bnUSD), and includes an exchange to service all blockchains connected to the ICON Network.",
+              "source": "@site/docs/introduction.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "introduction",
+                "title": "Introduction",
+                "description": "The documentation site for Balanced, a DeFi project that’s home to the Balanced Dollar stablecoin (bnUSD), and includes an exchange to service all blockchains connected to the ICON Network.",
+                "slug": "/",
+                "sidebar_position": 1,
+                "sidebar_label": "Introduction"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Borrow Balanced Dollars",
+                "permalink": "/borrow-bnusd"
+              }
+            },
+            {
+              "id": "lock-baln",
+              "title": "Lock up Balance Tokens",
+              "description": "Learn how to lock up Balance Tokens to get Boosted BALN (bBALN).",
+              "source": "@site/docs/lock-baln.md",
+              "sourceDirName": ".",
+              "slug": "/lock-baln",
+              "permalink": "/lock-baln",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "id": "lock-baln",
+                "title": "Lock up Balance Tokens",
+                "description": "Learn how to lock up Balance Tokens to get Boosted BALN (bBALN).",
+                "slug": "/lock-baln",
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Claim rewards",
+                "permalink": "/claim-rewards"
+              },
+              "next": {
+                "title": "Incentivise liquidity pools",
+                "permalink": "/incentivise-liquidity"
+              }
+            },
+            {
+              "id": "manage-assets",
+              "title": "View and manage assets",
+              "description": "Learn how to view and manage assets in your wallet.",
+              "source": "@site/docs/manage-assets.md",
+              "sourceDirName": ".",
+              "slug": "/manage-assets",
+              "permalink": "/manage-assets",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "id": "manage-assets",
+                "title": "View and manage assets",
+                "description": "Learn how to view and manage assets in your wallet.",
+                "slug": "/manage-assets",
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Participate in governance",
+                "permalink": "/participate-governance"
+              },
+              "next": {
+                "title": "Security",
+                "permalink": "/security"
+              }
+            },
+            {
+              "id": "participate-governance",
+              "title": "Participate in governance",
+              "description": "Learn where to discuss potential changes to Balanced, how to vote on the changes proposed, and submit a proposal of your own.",
+              "source": "@site/docs/participate-governance.md",
+              "sourceDirName": ".",
+              "slug": "/participate-governance",
+              "permalink": "/participate-governance",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "id": "participate-governance",
+                "title": "Participate in governance",
+                "description": "Learn where to discuss potential changes to Balanced, how to vote on the changes proposed, and submit a proposal of your own.",
+                "slug": "/participate-governance",
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Incentivise liquidity pools",
+                "permalink": "/incentivise-liquidity"
+              },
+              "next": {
+                "title": "View and manage assets",
+                "permalink": "/manage-assets"
+              }
+            },
+            {
+              "id": "security",
+              "title": "Security",
+              "description": "Learn about the measures Balanced takes to keep its users safe.",
+              "source": "@site/docs/security.md",
+              "sourceDirName": ".",
+              "slug": "/security",
+              "permalink": "/security",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "id": "security",
+                "title": "Security",
+                "description": "Learn about the measures Balanced takes to keep its users safe.",
+                "slug": "/security",
+                "sidebar_position": 11
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "View and manage assets",
+                "permalink": "/manage-assets"
+              },
+              "next": {
+                "title": "Troubleshooting",
+                "permalink": "/troubleshooting"
+              }
+            },
+            {
+              "id": "supply-liquidity",
+              "title": "Supply liquidity",
+              "description": "Learn how to supply assets to a liquidity pool on Balanced.",
+              "source": "@site/docs/supply-liquidity.md",
+              "sourceDirName": ".",
+              "slug": "/supply-liquidity",
+              "permalink": "/supply-liquidity",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "supply-liquidity",
+                "title": "Supply liquidity",
+                "description": "Learn how to supply assets to a liquidity pool on Balanced.",
+                "slug": "/supply-liquidity",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Swap assets",
+                "permalink": "/swap-assets"
+              },
+              "next": {
+                "title": "Transfer assets cross-chain",
+                "permalink": "/transfer-cross-chain"
+              }
+            },
+            {
+              "id": "swap-assets",
+              "title": "Swap assets",
+              "description": "Learn how to swap assets on the Balanced decentralised exchange.",
+              "source": "@site/docs/swap-assets.md",
+              "sourceDirName": ".",
+              "slug": "/swap-assets",
+              "permalink": "/swap-assets",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "swap-assets",
+                "title": "Swap assets",
+                "description": "Learn how to swap assets on the Balanced decentralised exchange.",
+                "slug": "/swap-assets",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Borrow Balanced Dollars",
+                "permalink": "/borrow-bnusd"
+              },
+              "next": {
+                "title": "Supply liquidity",
+                "permalink": "/supply-liquidity"
+              }
+            },
+            {
+              "id": "technical/liquidation-bot",
+              "title": "Liquidation bot",
+              "description": "Learn how to cover the debt of under-collateralised positions and earn up to a 10% profit.",
+              "source": "@site/docs/technical/liquidation-bot.md",
+              "sourceDirName": "technical",
+              "slug": "/liquidation-bot",
+              "permalink": "/liquidation-bot",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "liquidation-bot",
+                "title": "Liquidation bot",
+                "description": "Learn how to cover the debt of under-collateralised positions and earn up to a 10% profit.",
+                "slug": "/liquidation-bot",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "White paper",
+                "permalink": "/white-paper"
+              }
+            },
+            {
+              "id": "technical/smart-contracts",
+              "title": "Smart contracts",
+              "description": "View all the smart contracts associated with Balanced.",
+              "source": "@site/docs/technical/smart-contracts.md",
+              "sourceDirName": "technical",
+              "slug": "/smart-contracts",
+              "permalink": "/smart-contracts",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "smart-contracts",
+                "title": "Smart contracts",
+                "description": "View all the smart contracts associated with Balanced.",
+                "slug": "/smart-contracts",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Technical docs",
+                "permalink": "/category/technical-docs"
+              },
+              "next": {
+                "title": "White paper",
+                "permalink": "/white-paper"
+              }
+            },
+            {
+              "id": "technical/white-paper",
+              "title": "White paper",
+              "description": "Learn about the token economics and technical details of Balanced.",
+              "source": "@site/docs/technical/white-paper.md",
+              "sourceDirName": "technical",
+              "slug": "/white-paper",
+              "permalink": "/white-paper",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "white-paper",
+                "title": "White paper",
+                "description": "Learn about the token economics and technical details of Balanced.",
+                "slug": "/white-paper",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Smart contracts",
+                "permalink": "/smart-contracts"
+              },
+              "next": {
+                "title": "Liquidation bot",
+                "permalink": "/liquidation-bot"
+              }
+            },
+            {
+              "id": "transfer-cross-chain",
+              "title": "Transfer assets cross-chain",
+              "description": "Learn how to move assets between ICON and supported blockchains.",
+              "source": "@site/docs/transfer-cross-chain.md",
+              "sourceDirName": ".",
+              "slug": "/transfer-cross-chain",
+              "permalink": "/transfer-cross-chain",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "id": "transfer-cross-chain",
+                "title": "Transfer assets cross-chain",
+                "description": "Learn how to move assets between ICON and supported blockchains.",
+                "slug": "/transfer-cross-chain",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Supply liquidity",
+                "permalink": "/supply-liquidity"
+              },
+              "next": {
+                "title": "Claim rewards",
+                "permalink": "/claim-rewards"
+              }
+            },
+            {
+              "id": "troubleshooting",
+              "title": "Troubleshooting",
+              "description": "If you’re having trouble using Balanced, you can find solutions to common problems here.",
+              "source": "@site/docs/troubleshooting.md",
+              "sourceDirName": ".",
+              "slug": "/troubleshooting",
+              "permalink": "/troubleshooting",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "id": "troubleshooting",
+                "title": "Troubleshooting",
+                "description": "If you’re having trouble using Balanced, you can find solutions to common problems here.",
+                "slug": "/troubleshooting",
+                "sidebar_position": 12
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Security",
+                "permalink": "/security"
+              },
+              "next": {
+                "title": "Technical docs",
+                "permalink": "/category/technical-docs"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "introduction",
+                "label": "Introduction"
+              },
+              {
+                "type": "doc",
+                "id": "borrow-bnusd"
+              },
+              {
+                "type": "doc",
+                "id": "swap-assets"
+              },
+              {
+                "type": "doc",
+                "id": "supply-liquidity"
+              },
+              {
+                "type": "doc",
+                "id": "transfer-cross-chain"
+              },
+              {
+                "type": "doc",
+                "id": "claim-rewards"
+              },
+              {
+                "type": "doc",
+                "id": "lock-baln"
+              },
+              {
+                "type": "doc",
+                "id": "incentivise-liquidity"
+              },
+              {
+                "type": "doc",
+                "id": "participate-governance"
+              },
+              {
+                "type": "doc",
+                "id": "manage-assets"
+              },
+              {
+                "type": "doc",
+                "id": "security"
+              },
+              {
+                "type": "doc",
+                "id": "troubleshooting"
+              },
+              {
+                "type": "category",
+                "label": "Technical docs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "technical/smart-contracts"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/white-paper"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "technical/liquidation-bot"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Read about the inner workings of Balanced, interact with the smart contracts, and more.",
+                  "slug": "/category/technical-docs",
+                  "permalink": "/category/technical-docs"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

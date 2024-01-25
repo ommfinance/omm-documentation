@@ -1,0 +1,129 @@
+{
+  "/__docusaurus/debug-775": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/config-fd9": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/content-85b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-119": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/metadata-c1e": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/registry-7ce": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/routes-906": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/markdown-page-173": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-522-9c8"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/-25b": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---248-0e4"
+    }
+  },
+  "/-fc9": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---935-fcf"
+  },
+  "/-13b": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/borrow-bnusd-3c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---borrow-bnusd-877-52c"
+  },
+  "/category/technical-docs-5d6": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-technical-docs-9-cc-3be"
+  },
+  "/claim-rewards-3bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---claim-rewards-10-c-639"
+  },
+  "/incentivise-liquidity-165": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---incentivise-liquidity-7-bd-3a8"
+  },
+  "/liquidation-bot-56e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---liquidation-bot-944-828"
+  },
+  "/lock-baln-8bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---lock-baln-434-389"
+  },
+  "/manage-assets-6d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---manage-assets-098-e9c"
+  },
+  "/participate-governance-510": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---participate-governanceeba-3d6"
+  },
+  "/security-4c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---securitydb-3-af6"
+  },
+  "/smart-contracts-5ed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---smart-contracts-0-e-3-1ac"
+  },
+  "/supply-liquidity-fac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---supply-liquidity-6-c-2-559"
+  },
+  "/swap-assets-5c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swap-assets-7-c-6-f12"
+  },
+  "/transfer-cross-chain-d7a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---transfer-cross-chainf-8-c-f93"
+  },
+  "/troubleshooting-7c8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---troubleshooting-9-d-9-b37"
+  },
+  "/white-paper-301": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---white-paperc-2-c-e31"
+  },
+  "/-0d0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---a-09-df0"
+  }
+}

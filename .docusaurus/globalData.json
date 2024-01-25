@@ -1,0 +1,108 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "borrow-bnusd",
+              "path": "/borrow-bnusd",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "claim-rewards",
+              "path": "/claim-rewards",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "incentivise-liquidity",
+              "path": "/incentivise-liquidity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "lock-baln",
+              "path": "/lock-baln",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manage-assets",
+              "path": "/manage-assets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participate-governance",
+              "path": "/participate-governance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "security",
+              "path": "/security",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "supply-liquidity",
+              "path": "/supply-liquidity",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swap-assets",
+              "path": "/swap-assets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/liquidation-bot",
+              "path": "/liquidation-bot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/smart-contracts",
+              "path": "/smart-contracts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/white-paper",
+              "path": "/white-paper",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "transfer-cross-chain",
+              "path": "/transfer-cross-chain",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "troubleshooting",
+              "path": "/troubleshooting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/technical-docs",
+              "path": "/category/technical-docs",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

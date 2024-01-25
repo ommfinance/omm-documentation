@@ -1,0 +1,30 @@
+{
+  "id": "swap-assets",
+  "title": "Swap assets",
+  "description": "Learn how to swap assets on the Balanced decentralised exchange.",
+  "source": "@site/docs/swap-assets.md",
+  "sourceDirName": ".",
+  "slug": "/swap-assets",
+  "permalink": "/swap-assets",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "swap-assets",
+    "title": "Swap assets",
+    "description": "Learn how to swap assets on the Balanced decentralised exchange.",
+    "slug": "/swap-assets",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Borrow Balanced Dollars",
+    "permalink": "/borrow-bnusd"
+  },
+  "next": {
+    "title": "Supply liquidity",
+    "permalink": "/supply-liquidity"
+  }
+}

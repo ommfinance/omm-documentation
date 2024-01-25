@@ -7,12 +7,15 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #00D3C2; 
-  --ifm-color-secondary: #9D4DF1;
-  --ifm-color-tertiary: #0c2a4d;
+  --ifm-color-secondary: #d8e0f2;
+  --ifm-color-tertiary: #9D4DF1;
   --ifm-font-family-base: 'Metropolis', sans-serif;
   --ifm-background-color:#d8e0f2;
   --ifm-background-surface-color:#f1f4f9;
-  --ifm-menu-color-background-hover: linear-gradient(0deg, #0c2a4d, #15375e);
+  --ifm-menu-color-background-hover: #fff;
+  --ifm-menu-color-background-active: #fff;
+  --ifm-menu-color: #7a8294;
+  --ifm-menu-color-active: #49546a;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -22,6 +25,12 @@
   --ifm-background-surface-color:#3f414a;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.5);
 }
+
+/* Background colour */
+#__docusaurus {
+  background-color: #d8e0f2; 
+}
+
 
 
 /* Typography */
@@ -69,8 +78,8 @@ a {
 }
 
 a:hover {
-  color: #00D3C2;
-  text-decoration: 2px underline #00D3C2;
+  color: #369fbf;
+  text-decoration: 2px underline #369fbf;
 }
 
 p a {
@@ -103,7 +112,7 @@ h1 + p {
 .navbar__link:hover {
   text-decoration: 2px underline #2ca9b7;
   background: transparent;
-  color: #00D3C2;
+  color: #369fbf;
 }
 
 .navbar__items--right > a:last-child {
@@ -145,7 +154,6 @@ h1 + p {
 
 
 .table-of-contents__link:hover {
-  text-decoration: 1px underline #2ca9b7;
   background: transparent;
 }
 
@@ -175,6 +183,221 @@ h1 + p {
 
 .footer__copyright {
   color: rgba(73,84,106,0.75);
+}
+
+
+/* Page layout */
+
+/* Limit line length */
+.main-wrapper {
+  max-width: 1300px; /* Or your desired width */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px; /* Adjust padding to ensure space around the content */
+}
+
+/* Give it some breathing room */
+
+.theme-doc-markdown {
+  padding: 0px 10px;
+}
+
+.pagination-nav {
+  padding-left: 10px;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  font-size: 14px;
+  background: none;
+}
+
+
+/* Responsive Breakpoints */
+@media screen and (max-width: 996px) {
+  .navbar__items--right > a:last-child { 
+    display: none;
+}
+}
+
+
+.row {
+  margin-bottom: 20px;
+}
+
+
+/* Admonition & alert styles */
+
+.theme-admonition {
+  margin-top: 20px;
+}
+
+.theme-admonition-note {
+  background-color: #fff;
+  color: #7a8294;
+  border-radius: 10px;
+}
+
+.theme-admonition-tip {
+  background-color: #fff;
+  color:#7a8294;
+  border-radius: 10px;
+}
+
+.theme-admonition-info {
+  background-color: #fff;
+  color: #7a8294;
+  border-radius: 10px;
+}
+
+.theme-admonition-warning {
+  background-color: #fff;
+  color: #7a8294;
+  border-radius: 10px;
+}
+
+.theme-admonition-danger {
+  background-color: #fff;
+  color: #7a8294;
+  border-radius: 10px;
+}
+
+
+
+.alert--primary {
+  --ifm-alert-border-color: #00D3C2;
+  border-left-width: 10px;
+}
+
+.alert--secondary {
+  --ifm-alert-border-color: #7a8294;
+  border-left-width: 10px;
+}
+
+.alert--success {
+  --ifm-alert-border-color: #00D3C2;
+  border-left-width: 10px;
+}
+
+.alert--info {
+  --ifm-alert-border-color: #7a8294;
+  border-left-width: 10px;
+}
+
+.alert--warning {
+  --ifm-alert-border-color: #9D4DF1;
+  border-left-width: 10px;
+}
+
+.alert--danger {
+  --ifm-alert-border-color: #9D4DF1;
+  border-left-width: 10px;
+}
+
+.alert--note {
+  --ifm-alert-border-color: #7a8294;
+  border-left-width: 10px;
+}
+
+
+
+.pagination-nav__link {
+  border-radius: 12px;
+  border: 3px solid;
+  border-color: #00d3c2;
+  background: #fff;
+  color: rgba(73,84,106,0.75);
+}
+
+.pagination-nav__link:hover {
+  border: 3px solid;
+  border-color: #9D4DF1;
+}
+
+.pagination-nav__sublabel {
+  color: rgba(73,84,106,0.75);
+}
+
+
+
+
+
+.pagination-nav__link--prev .pagination-nav__label:before {
+  content: url(/img/chevron-down.svg);
+  display: inline-block;
+  width: 12px;
+  margin-right: 5px;
+  transform: rotate(90deg);
+  vertical-align: -2px;
+}
+.pagination-nav__link--prev:hover .pagination-nav__label:before {
+  content: url(/img/chevron-down.svg);
+  display: inline-block;
+  width: 12px;
+  margin-right: 5px;
+  transform: rotate(90deg);
+  vertical-align: -2px;
+}
+
+.pagination-nav__link--next .pagination-nav__label:after {
+  content: url(/img/chevron-down.svg);
+  display: inline-block;
+  width: 12px;
+  margin-left: 5px;
+  transform: rotate(270deg);
+  vertical-align: -2px;
+}
+
+.pagination-nav__link--next:hover .pagination-nav__label:after {
+  content: url(/img/chevron-down.svg);
+  display: inline-block;
+  width: 12px;
+  margin-left: 5px;
+  transform: rotate(270deg);
+  vertical-align: -2px;
+}
+
+
+.card {
+  border: 2px solid #d8e0f2 !important;
+  border-radius: 15px;
+  border-color: linear-gradient(45deg, #9d4df1, #00d3c2);
+  color: rgba(255,255,255,0.75);
+}
+
+.card:hover {
+  border: 2px solid #2ca9b7 !important;
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+}
+
+.card:hover h2 {
+  color: #2ca9b7;
+}
+
+
+[class*='cardDescription'] {
+  max-height: 5em;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis !important;
+}
+
+
+.menu__link {
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+
+
+
+.menu__link--active:not(.menu__link--sublist) {
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+
+.menu__list-item-collapsible {
+  border-radius: 15px;
+  padding: 10px 15px 10px 0px;
 }
 
 

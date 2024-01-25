@@ -1,0 +1,220 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/",
+        "docId": "introduction",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Borrow Balanced Dollars",
+        "href": "/borrow-bnusd",
+        "docId": "borrow-bnusd",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Swap assets",
+        "href": "/swap-assets",
+        "docId": "swap-assets",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Supply liquidity",
+        "href": "/supply-liquidity",
+        "docId": "supply-liquidity",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Transfer assets cross-chain",
+        "href": "/transfer-cross-chain",
+        "docId": "transfer-cross-chain",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Claim rewards",
+        "href": "/claim-rewards",
+        "docId": "claim-rewards",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Lock up Balance Tokens",
+        "href": "/lock-baln",
+        "docId": "lock-baln",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Incentivise liquidity pools",
+        "href": "/incentivise-liquidity",
+        "docId": "incentivise-liquidity",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Participate in governance",
+        "href": "/participate-governance",
+        "docId": "participate-governance",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "View and manage assets",
+        "href": "/manage-assets",
+        "docId": "manage-assets",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Security",
+        "href": "/security",
+        "docId": "security",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Troubleshooting",
+        "href": "/troubleshooting",
+        "docId": "troubleshooting",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Technical docs",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Smart contracts",
+            "href": "/smart-contracts",
+            "docId": "technical/smart-contracts",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "White paper",
+            "href": "/white-paper",
+            "docId": "technical/white-paper",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Liquidation bot",
+            "href": "/liquidation-bot",
+            "docId": "technical/liquidation-bot",
+            "unlisted": false
+          }
+        ],
+        "href": "/category/technical-docs"
+      }
+    ]
+  },
+  "docs": {
+    "borrow-bnusd": {
+      "id": "borrow-bnusd",
+      "title": "Borrow Balanced Dollars",
+      "description": "Learn how to deposit collateral, borrow bnUSD, optimise your risk, and close your position.",
+      "sidebar": "tutorialSidebar"
+    },
+    "claim-rewards": {
+      "id": "claim-rewards",
+      "title": "Claim rewards",
+      "description": "Learn how to earn and claim Balance Tokens and network fees.",
+      "sidebar": "tutorialSidebar"
+    },
+    "incentivise-liquidity": {
+      "id": "incentivise-liquidity",
+      "title": "Incentivise liquidity pools",
+      "description": "Learn how to influence the BALN incentives for each liquidity pool.",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction": {
+      "id": "introduction",
+      "title": "Introduction",
+      "description": "The documentation site for Balanced, a DeFi project that’s home to the Balanced Dollar stablecoin (bnUSD), and includes an exchange to service all blockchains connected to the ICON Network.",
+      "sidebar": "tutorialSidebar"
+    },
+    "lock-baln": {
+      "id": "lock-baln",
+      "title": "Lock up Balance Tokens",
+      "description": "Learn how to lock up Balance Tokens to get Boosted BALN (bBALN).",
+      "sidebar": "tutorialSidebar"
+    },
+    "manage-assets": {
+      "id": "manage-assets",
+      "title": "View and manage assets",
+      "description": "Learn how to view and manage assets in your wallet.",
+      "sidebar": "tutorialSidebar"
+    },
+    "participate-governance": {
+      "id": "participate-governance",
+      "title": "Participate in governance",
+      "description": "Learn where to discuss potential changes to Balanced, how to vote on the changes proposed, and submit a proposal of your own.",
+      "sidebar": "tutorialSidebar"
+    },
+    "security": {
+      "id": "security",
+      "title": "Security",
+      "description": "Learn about the measures Balanced takes to keep its users safe.",
+      "sidebar": "tutorialSidebar"
+    },
+    "supply-liquidity": {
+      "id": "supply-liquidity",
+      "title": "Supply liquidity",
+      "description": "Learn how to supply assets to a liquidity pool on Balanced.",
+      "sidebar": "tutorialSidebar"
+    },
+    "swap-assets": {
+      "id": "swap-assets",
+      "title": "Swap assets",
+      "description": "Learn how to swap assets on the Balanced decentralised exchange.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/liquidation-bot": {
+      "id": "technical/liquidation-bot",
+      "title": "Liquidation bot",
+      "description": "Learn how to cover the debt of under-collateralised positions and earn up to a 10% profit.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/smart-contracts": {
+      "id": "technical/smart-contracts",
+      "title": "Smart contracts",
+      "description": "View all the smart contracts associated with Balanced.",
+      "sidebar": "tutorialSidebar"
+    },
+    "technical/white-paper": {
+      "id": "technical/white-paper",
+      "title": "White paper",
+      "description": "Learn about the token economics and technical details of Balanced.",
+      "sidebar": "tutorialSidebar"
+    },
+    "transfer-cross-chain": {
+      "id": "transfer-cross-chain",
+      "title": "Transfer assets cross-chain",
+      "description": "Learn how to move assets between ICON and supported blockchains.",
+      "sidebar": "tutorialSidebar"
+    },
+    "troubleshooting": {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "description": "If you’re having trouble using Balanced, you can find solutions to common problems here.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

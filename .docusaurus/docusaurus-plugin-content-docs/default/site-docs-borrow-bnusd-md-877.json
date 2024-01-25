@@ -1,0 +1,30 @@
+{
+  "id": "borrow-bnusd",
+  "title": "Borrow Balanced Dollars",
+  "description": "Learn how to deposit collateral, borrow bnUSD, optimise your risk, and close your position.",
+  "source": "@site/docs/borrow-bnusd.md",
+  "sourceDirName": ".",
+  "slug": "/borrow-bnusd",
+  "permalink": "/borrow-bnusd",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "borrow-bnusd",
+    "title": "Borrow Balanced Dollars",
+    "description": "Learn how to deposit collateral, borrow bnUSD, optimise your risk, and close your position.",
+    "slug": "/borrow-bnusd",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Swap assets",
+    "permalink": "/swap-assets"
+  }
+}

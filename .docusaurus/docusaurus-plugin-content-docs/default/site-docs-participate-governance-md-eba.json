@@ -1,0 +1,30 @@
+{
+  "id": "participate-governance",
+  "title": "Participate in governance",
+  "description": "Learn where to discuss potential changes to Balanced, how to vote on the changes proposed, and submit a proposal of your own.",
+  "source": "@site/docs/participate-governance.md",
+  "sourceDirName": ".",
+  "slug": "/participate-governance",
+  "permalink": "/participate-governance",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "id": "participate-governance",
+    "title": "Participate in governance",
+    "description": "Learn where to discuss potential changes to Balanced, how to vote on the changes proposed, and submit a proposal of your own.",
+    "slug": "/participate-governance",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Incentivise liquidity pools",
+    "permalink": "/incentivise-liquidity"
+  },
+  "next": {
+    "title": "View and manage assets",
+    "permalink": "/manage-assets"
+  }
+}
