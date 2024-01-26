@@ -1,0 +1,30 @@
+{
+  "id": "reference/icx-delegation-script",
+  "title": "ICX delegation script",
+  "description": "If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.",
+  "source": "@site/docs/reference/icx-delegation-script.md",
+  "sourceDirName": "reference",
+  "slug": "/icx-delegation-script",
+  "permalink": "/icx-delegation-script",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "icx-delegation-script",
+    "title": "ICX delegation script",
+    "description": "If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.",
+    "slug": "/icx-delegation-script",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Smart contracts",
+    "permalink": "/smart-contracts"
+  },
+  "next": {
+    "title": "Testnet app",
+    "permalink": "/testnet"
+  }
+}

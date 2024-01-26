@@ -8,36 +8,21 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "introduction",
+          "mainDocId": "home",
           "docs": [
             {
-              "id": "borrow-bnusd",
-              "path": "/borrow-bnusd",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "claim-rewards",
-              "path": "/claim-rewards",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "incentivise-liquidity",
-              "path": "/incentivise-liquidity",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "introduction",
+              "id": "home",
               "path": "/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "lock-baln",
-              "path": "/lock-baln",
+              "id": "lock-omm",
+              "path": "/lock-omm",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "manage-assets",
-              "path": "/manage-assets",
+              "id": "manage-validator",
+              "path": "/manage-validator",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -46,48 +31,48 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "security",
-              "path": "/security",
+              "id": "reference/icx-delegation-script",
+              "path": "/icx-delegation-script",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "supply-liquidity",
-              "path": "/supply-liquidity",
+              "id": "reference/liquid-staking-pivot",
+              "path": "/liquid-staking-pivot",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "swap-assets",
-              "path": "/swap-assets",
+              "id": "reference/protocol-details",
+              "path": "/protocol-details",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical/liquidation-bot",
-              "path": "/liquidation-bot",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "technical/smart-contracts",
+              "id": "reference/smart-contracts",
               "path": "/smart-contracts",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "technical/white-paper",
-              "path": "/white-paper",
+              "id": "reference/testnet",
+              "path": "/testnet",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "transfer-cross-chain",
-              "path": "/transfer-cross-chain",
+              "id": "reference/validator-incentives",
+              "path": "/validator-incentives",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "troubleshooting",
-              "path": "/troubleshooting",
+              "id": "stake-unstake",
+              "path": "/stake-unstake",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/technical-docs",
-              "path": "/category/technical-docs",
+              "id": "vote-validators",
+              "path": "/vote-validators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/reference",
+              "path": "/category/reference",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -96,7 +81,7 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/",
-                "label": "Introduction"
+                "label": "Home"
               }
             }
           }

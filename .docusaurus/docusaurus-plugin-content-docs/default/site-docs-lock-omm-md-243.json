@@ -1,0 +1,30 @@
+{
+  "id": "lock-omm",
+  "title": "Lock up OMM",
+  "description": "Learn how to lock up Omm Tokens to receive voting power.",
+  "source": "@site/docs/lock-omm.md",
+  "sourceDirName": ".",
+  "slug": "/lock-omm",
+  "permalink": "/lock-omm",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "lock-omm",
+    "title": "Lock up OMM",
+    "description": "Learn how to lock up Omm Tokens to receive voting power.",
+    "slug": "/lock-omm",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vote for ICON validators",
+    "permalink": "/vote-validators"
+  },
+  "next": {
+    "title": "Participate in governance",
+    "permalink": "/participate-governance"
+  }
+}

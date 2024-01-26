@@ -1,0 +1,30 @@
+{
+  "id": "reference/protocol-details",
+  "title": "Protocol details",
+  "description": "Learn about the token economics and technical details of Omm.",
+  "source": "@site/docs/reference/protocol-details.md",
+  "sourceDirName": "reference",
+  "slug": "/protocol-details",
+  "permalink": "/protocol-details",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "protocol-details",
+    "title": "Protocol details",
+    "description": "Learn about the token economics and technical details of Omm.",
+    "slug": "/protocol-details",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Validator incentives",
+    "permalink": "/validator-incentives"
+  },
+  "next": {
+    "title": "Smart contracts",
+    "permalink": "/smart-contracts"
+  }
+}

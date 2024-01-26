@@ -11,58 +11,30 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Introduction",
+        "label": "Home",
         "href": "/",
-        "docId": "introduction",
+        "docId": "home",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Borrow Balanced Dollars",
-        "href": "/borrow-bnusd",
-        "docId": "borrow-bnusd",
+        "label": "Stake and unstake ICX",
+        "href": "/stake-unstake",
+        "docId": "stake-unstake",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Swap assets",
-        "href": "/swap-assets",
-        "docId": "swap-assets",
+        "label": "Vote for ICON validators",
+        "href": "/vote-validators",
+        "docId": "vote-validators",
         "unlisted": false
       },
       {
         "type": "link",
-        "label": "Supply liquidity",
-        "href": "/supply-liquidity",
-        "docId": "supply-liquidity",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Transfer assets cross-chain",
-        "href": "/transfer-cross-chain",
-        "docId": "transfer-cross-chain",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Claim rewards",
-        "href": "/claim-rewards",
-        "docId": "claim-rewards",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Lock up Balance Tokens",
-        "href": "/lock-baln",
-        "docId": "lock-baln",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Incentivise liquidity pools",
-        "href": "/incentivise-liquidity",
-        "docId": "incentivise-liquidity",
+        "label": "Lock up OMM",
+        "href": "/lock-omm",
+        "docId": "lock-omm",
         "unlisted": false
       },
       {
@@ -74,146 +46,135 @@
       },
       {
         "type": "link",
-        "label": "View and manage assets",
-        "href": "/manage-assets",
-        "docId": "manage-assets",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Security",
-        "href": "/security",
-        "docId": "security",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "Troubleshooting",
-        "href": "/troubleshooting",
-        "docId": "troubleshooting",
+        "label": "Manage a validator wallet",
+        "href": "/manage-validator",
+        "docId": "manage-validator",
         "unlisted": false
       },
       {
         "type": "category",
-        "label": "Technical docs",
+        "label": "Reference",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
+            "label": "About the liquid staking pivot",
+            "href": "/liquid-staking-pivot",
+            "docId": "reference/liquid-staking-pivot",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Validator incentives",
+            "href": "/validator-incentives",
+            "docId": "reference/validator-incentives",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Protocol details",
+            "href": "/protocol-details",
+            "docId": "reference/protocol-details",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "Smart contracts",
             "href": "/smart-contracts",
-            "docId": "technical/smart-contracts",
+            "docId": "reference/smart-contracts",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "White paper",
-            "href": "/white-paper",
-            "docId": "technical/white-paper",
+            "label": "ICX delegation script",
+            "href": "/icx-delegation-script",
+            "docId": "reference/icx-delegation-script",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Liquidation bot",
-            "href": "/liquidation-bot",
-            "docId": "technical/liquidation-bot",
+            "label": "Testnet app",
+            "href": "/testnet",
+            "docId": "reference/testnet",
             "unlisted": false
           }
         ],
-        "href": "/category/technical-docs"
+        "href": "/category/reference"
       }
     ]
   },
   "docs": {
-    "borrow-bnusd": {
-      "id": "borrow-bnusd",
-      "title": "Borrow Balanced Dollars",
-      "description": "Learn how to deposit collateral, borrow bnUSD, optimise your risk, and close your position.",
+    "home": {
+      "id": "home",
+      "title": "Home",
+      "description": "The documentation site for Omm, a liquid staking protocol for the ICON blockchain.",
       "sidebar": "tutorialSidebar"
     },
-    "claim-rewards": {
-      "id": "claim-rewards",
-      "title": "Claim rewards",
-      "description": "Learn how to earn and claim Balance Tokens and network fees.",
+    "lock-omm": {
+      "id": "lock-omm",
+      "title": "Lock up OMM",
+      "description": "Learn how to lock up Omm Tokens to receive voting power.",
       "sidebar": "tutorialSidebar"
     },
-    "incentivise-liquidity": {
-      "id": "incentivise-liquidity",
-      "title": "Incentivise liquidity pools",
-      "description": "Learn how to influence the BALN incentives for each liquidity pool.",
-      "sidebar": "tutorialSidebar"
-    },
-    "introduction": {
-      "id": "introduction",
-      "title": "Introduction",
-      "description": "The documentation site for Balanced, a DeFi project that’s home to the Balanced Dollar stablecoin (bnUSD), and includes an exchange to service all blockchains connected to the ICON Network.",
-      "sidebar": "tutorialSidebar"
-    },
-    "lock-baln": {
-      "id": "lock-baln",
-      "title": "Lock up Balance Tokens",
-      "description": "Learn how to lock up Balance Tokens to get Boosted BALN (bBALN).",
-      "sidebar": "tutorialSidebar"
-    },
-    "manage-assets": {
-      "id": "manage-assets",
-      "title": "View and manage assets",
-      "description": "Learn how to view and manage assets in your wallet.",
+    "manage-validator": {
+      "id": "manage-validator",
+      "title": "Manage a validator wallet",
+      "description": "Learn how to claim rewards and monitor your ICX delegation.",
       "sidebar": "tutorialSidebar"
     },
     "participate-governance": {
       "id": "participate-governance",
       "title": "Participate in governance",
-      "description": "Learn where to discuss potential changes to Balanced, how to vote on the changes proposed, and submit a proposal of your own.",
+      "description": "Learn how to vote on proposals, discuss potential changes, and submit a proposal of your own.",
       "sidebar": "tutorialSidebar"
     },
-    "security": {
-      "id": "security",
-      "title": "Security",
-      "description": "Learn about the measures Balanced takes to keep its users safe.",
+    "reference/icx-delegation-script": {
+      "id": "reference/icx-delegation-script",
+      "title": "ICX delegation script",
+      "description": "If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.",
       "sidebar": "tutorialSidebar"
     },
-    "supply-liquidity": {
-      "id": "supply-liquidity",
-      "title": "Supply liquidity",
-      "description": "Learn how to supply assets to a liquidity pool on Balanced.",
+    "reference/liquid-staking-pivot": {
+      "id": "reference/liquid-staking-pivot",
+      "title": "About the liquid staking pivot",
+      "description": "Omm is no longer a money market. Here’s what you need to know.",
       "sidebar": "tutorialSidebar"
     },
-    "swap-assets": {
-      "id": "swap-assets",
-      "title": "Swap assets",
-      "description": "Learn how to swap assets on the Balanced decentralised exchange.",
+    "reference/protocol-details": {
+      "id": "reference/protocol-details",
+      "title": "Protocol details",
+      "description": "Learn about the token economics and technical details of Omm.",
       "sidebar": "tutorialSidebar"
     },
-    "technical/liquidation-bot": {
-      "id": "technical/liquidation-bot",
-      "title": "Liquidation bot",
-      "description": "Learn how to cover the debt of under-collateralised positions and earn up to a 10% profit.",
-      "sidebar": "tutorialSidebar"
-    },
-    "technical/smart-contracts": {
-      "id": "technical/smart-contracts",
+    "reference/smart-contracts": {
+      "id": "reference/smart-contracts",
       "title": "Smart contracts",
-      "description": "View all the smart contracts associated with Balanced.",
+      "description": "View all the smart contracts associated with Omm.",
       "sidebar": "tutorialSidebar"
     },
-    "technical/white-paper": {
-      "id": "technical/white-paper",
-      "title": "White paper",
-      "description": "Learn about the token economics and technical details of Balanced.",
+    "reference/testnet": {
+      "id": "reference/testnet",
+      "title": "Testnet app",
+      "description": "Learn how to use Omm on the Lisbon testnet.",
       "sidebar": "tutorialSidebar"
     },
-    "transfer-cross-chain": {
-      "id": "transfer-cross-chain",
-      "title": "Transfer assets cross-chain",
-      "description": "Learn how to move assets between ICON and supported blockchains.",
+    "reference/validator-incentives": {
+      "id": "reference/validator-incentives",
+      "title": "Validator incentives",
+      "description": "View the incentives ICON validators offer to their voters.",
       "sidebar": "tutorialSidebar"
     },
-    "troubleshooting": {
-      "id": "troubleshooting",
-      "title": "Troubleshooting",
-      "description": "If you’re having trouble using Balanced, you can find solutions to common problems here.",
+    "stake-unstake": {
+      "id": "stake-unstake",
+      "title": "Stake and unstake ICX",
+      "description": "Learn how to convert ICX to sICX, and unstake it instantly.",
+      "sidebar": "tutorialSidebar"
+    },
+    "vote-validators": {
+      "id": "vote-validators",
+      "title": "Vote for ICON validators",
+      "description": "Learn how to use sICX and bOMM to participate in ICON governance.",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -1,7 +1,7 @@
 {
   "id": "participate-governance",
   "title": "Participate in governance",
-  "description": "Learn where to discuss potential changes to Balanced, how to vote on the changes proposed, and submit a proposal of your own.",
+  "description": "Learn how to vote on proposals, discuss potential changes, and submit a proposal of your own.",
   "source": "@site/docs/participate-governance.md",
   "sourceDirName": ".",
   "slug": "/participate-governance",
@@ -10,21 +10,21 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 9,
+  "sidebarPosition": 5,
   "frontMatter": {
     "id": "participate-governance",
     "title": "Participate in governance",
-    "description": "Learn where to discuss potential changes to Balanced, how to vote on the changes proposed, and submit a proposal of your own.",
+    "description": "Learn how to vote on proposals, discuss potential changes, and submit a proposal of your own.",
     "slug": "/participate-governance",
-    "sidebar_position": 9
+    "sidebar_position": 5
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Incentivise liquidity pools",
-    "permalink": "/incentivise-liquidity"
+    "title": "Lock up OMM",
+    "permalink": "/lock-omm"
   },
   "next": {
-    "title": "View and manage assets",
-    "permalink": "/manage-assets"
+    "title": "Manage a validator wallet",
+    "permalink": "/manage-validator"
   }
 }

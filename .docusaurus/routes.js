@@ -44,55 +44,43 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '25b'),
+    component: ComponentCreator('/', 'a6c'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'fc9'),
+        component: ComponentCreator('/', '382'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '13b'),
+            component: ComponentCreator('/', 'dae'),
             routes: [
               {
-                path: '/borrow-bnusd',
-                component: ComponentCreator('/borrow-bnusd', '3c2'),
+                path: '/category/reference',
+                component: ComponentCreator('/category/reference', '1b1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/technical-docs',
-                component: ComponentCreator('/category/technical-docs', '5d6'),
+                path: '/icx-delegation-script',
+                component: ComponentCreator('/icx-delegation-script', '8fd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/claim-rewards',
-                component: ComponentCreator('/claim-rewards', '3bf'),
+                path: '/liquid-staking-pivot',
+                component: ComponentCreator('/liquid-staking-pivot', 'dc4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/incentivise-liquidity',
-                component: ComponentCreator('/incentivise-liquidity', '165'),
+                path: '/lock-omm',
+                component: ComponentCreator('/lock-omm', '676'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/liquidation-bot',
-                component: ComponentCreator('/liquidation-bot', '56e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/lock-baln',
-                component: ComponentCreator('/lock-baln', '8bf'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/manage-assets',
-                component: ComponentCreator('/manage-assets', '6d6'),
+                path: '/manage-validator',
+                component: ComponentCreator('/manage-validator', 'bad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -103,50 +91,44 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/security',
-                component: ComponentCreator('/security', '4c2'),
+                path: '/protocol-details',
+                component: ComponentCreator('/protocol-details', '061'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/smart-contracts',
-                component: ComponentCreator('/smart-contracts', '5ed'),
+                component: ComponentCreator('/smart-contracts', '5bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/supply-liquidity',
-                component: ComponentCreator('/supply-liquidity', 'fac'),
+                path: '/stake-unstake',
+                component: ComponentCreator('/stake-unstake', '38e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/swap-assets',
-                component: ComponentCreator('/swap-assets', '5c9'),
+                path: '/testnet',
+                component: ComponentCreator('/testnet', '8de'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/transfer-cross-chain',
-                component: ComponentCreator('/transfer-cross-chain', 'd7a'),
+                path: '/validator-incentives',
+                component: ComponentCreator('/validator-incentives', 'fd5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/troubleshooting',
-                component: ComponentCreator('/troubleshooting', '7c8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/white-paper',
-                component: ComponentCreator('/white-paper', '301'),
+                path: '/vote-validators',
+                component: ComponentCreator('/vote-validators', '7ca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/',
-                component: ComponentCreator('/', '0d0'),
+                component: ComponentCreator('/', 'a24'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

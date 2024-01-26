@@ -127,7 +127,8 @@ h1 + p {
 }
 
 .navbar__items--right > a:last-child:hover {
-  background-color: #087083;
+  background-color: transparent;
+  border-radius: 2px solid #00D3C2;
   color: #fff;
   text-decoration: none;
 }
@@ -199,7 +200,9 @@ h1 + p {
 /* Give it some breathing room */
 
 .theme-doc-markdown {
-  padding: 0px 10px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
 }
 
 .pagination-nav {
@@ -232,31 +235,31 @@ h1 + p {
 }
 
 .theme-admonition-note {
-  background-color: #fff;
+  background-color: #edeff4;
   color: #7a8294;
   border-radius: 10px;
 }
 
 .theme-admonition-tip {
-  background-color: #fff;
+  background-color: #edeff4;
   color:#7a8294;
   border-radius: 10px;
 }
 
 .theme-admonition-info {
-  background-color: #fff;
+  background-color: #edeff4;
   color: #7a8294;
   border-radius: 10px;
 }
 
 .theme-admonition-warning {
-  background-color: #fff;
+  background-color: #edeff4;
   color: #7a8294;
   border-radius: 10px;
 }
 
 .theme-admonition-danger {
-  background-color: #fff;
+  background-color: #edeff4;
   color: #7a8294;
   border-radius: 10px;
 }
@@ -269,7 +272,7 @@ h1 + p {
 }
 
 .alert--secondary {
-  --ifm-alert-border-color: #7a8294;
+  --ifm-alert-border-color: rgba(73,84,106,0.75);
   border-left-width: 10px;
 }
 
@@ -279,7 +282,7 @@ h1 + p {
 }
 
 .alert--info {
-  --ifm-alert-border-color: #7a8294;
+  --ifm-alert-border-color: rgba(73,84,106,0.75);
   border-left-width: 10px;
 }
 
@@ -294,7 +297,7 @@ h1 + p {
 }
 
 .alert--note {
-  --ifm-alert-border-color: #7a8294;
+  --ifm-alert-border-color: rgba(73,84,106,0.75);
   border-left-width: 10px;
 }
 
@@ -303,23 +306,25 @@ h1 + p {
 .pagination-nav__link {
   border-radius: 12px;
   border: 3px solid;
-  border-color: #00d3c2;
+  border-color: #fff;
   background: #fff;
   color: rgba(73,84,106,0.75);
 }
 
-.pagination-nav__link:hover {
+.pagination-nav__link--prev:hover {
   border: 3px solid;
   border-color: #9D4DF1;
 }
 
-.pagination-nav__sublabel {
-  color: rgba(73,84,106,0.75);
+.pagination-nav__link--next:hover {
+  border: 3px solid;
+  border-color: #00D3C2;
 }
 
 
-
-
+.pagination-nav__sublabel {
+  color: rgba(73,84,106,0.75);
+}
 
 .pagination-nav__link--prev .pagination-nav__label:before {
   content: url(/img/chevron-down.svg);
@@ -329,6 +334,7 @@ h1 + p {
   transform: rotate(90deg);
   vertical-align: -2px;
 }
+
 .pagination-nav__link--prev:hover .pagination-nav__label:before {
   content: url(/img/chevron-down.svg);
   display: inline-block;
@@ -358,15 +364,16 @@ h1 + p {
 
 
 .card {
-  border: 2px solid #d8e0f2 !important;
+  background-color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.8) !important;
   border-radius: 15px;
-  border-color: linear-gradient(45deg, #9d4df1, #00d3c2);
-  color: rgba(255,255,255,0.75);
+  color: rgba(73,84,106,0.75);
 }
 
 .card:hover {
   border: 2px solid #2ca9b7 !important;
-  color: rgba(255,255,255,0.75);
+  border-radius: 15px;
+  color: rgba(73,84,106,0.75);
   text-decoration: none;
 }
 
@@ -387,7 +394,6 @@ h1 + p {
   border-radius: 12px;
   padding: 10px 15px;
 }
-
 
 
 .menu__link--active:not(.menu__link--sublist) {

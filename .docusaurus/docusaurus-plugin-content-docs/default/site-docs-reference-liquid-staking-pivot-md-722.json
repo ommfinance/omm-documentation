@@ -1,0 +1,30 @@
+{
+  "id": "reference/liquid-staking-pivot",
+  "title": "About the liquid staking pivot",
+  "description": "Omm is no longer a money market. Here’s what you need to know.",
+  "source": "@site/docs/reference/liquid-staking-pivot.md",
+  "sourceDirName": "reference",
+  "slug": "/liquid-staking-pivot",
+  "permalink": "/liquid-staking-pivot",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "liquid-staking-pivot",
+    "title": "About the liquid staking pivot",
+    "description": "Omm is no longer a money market. Here’s what you need to know.",
+    "slug": "/liquid-staking-pivot",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reference",
+    "permalink": "/category/reference"
+  },
+  "next": {
+    "title": "Validator incentives",
+    "permalink": "/validator-incentives"
+  }
+}

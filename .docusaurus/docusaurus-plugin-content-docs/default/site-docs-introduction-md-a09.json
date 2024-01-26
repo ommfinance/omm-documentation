@@ -1,6 +1,6 @@
 {
-  "id": "introduction",
-  "title": "Introduction",
+  "id": "home",
+  "title": "Home",
   "description": "The documentation site for Balanced, a DeFi project that’s home to the Balanced Dollar stablecoin (bnUSD), and includes an exchange to service all blockchains connected to the ICON Network.",
   "source": "@site/docs/introduction.md",
   "sourceDirName": ".",
@@ -12,16 +12,16 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "id": "introduction",
-    "title": "Introduction",
+    "id": "home",
+    "title": "Home",
     "description": "The documentation site for Balanced, a DeFi project that’s home to the Balanced Dollar stablecoin (bnUSD), and includes an exchange to service all blockchains connected to the ICON Network.",
     "slug": "/",
     "sidebar_position": 1,
-    "sidebar_label": "Introduction"
+    "sidebar_label": "Home"
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Borrow Balanced Dollars",
-    "permalink": "/borrow-bnusd"
+    "title": "Lock up Balance Tokens",
+    "permalink": "/lock-baln"
   }
 }

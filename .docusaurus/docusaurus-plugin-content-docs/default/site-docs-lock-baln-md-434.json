@@ -20,11 +20,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Claim rewards",
-    "permalink": "/claim-rewards"
+    "title": "Stake and unstake ICX",
+    "permalink": "/stake-unstake"
   },
   "next": {
-    "title": "Incentivise liquidity pools",
-    "permalink": "/incentivise-liquidity"
+    "title": "Participate in governance",
+    "permalink": "/participate-governance"
   }
 }
