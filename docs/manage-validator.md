@@ -17,4 +17,4 @@ To claim your rewards:
 <img src="/img/validator-rewards.png" alt="The Validator Rewards section, showing a space to claim rewards, view total income earned, and your bOMM + sICx delegation." width="100%" /> 
 
 :::tip Manage your delegation
-If you plan to share rewards with voters, use the [ICX delegation script](/reference/icx-delegation-script) to track your votes, and add your details to the [Validator incentives](/reference/validator-incentives) page.
+If you plan to share rewards with voters, use the [ICX delegation script](/icx-delegation-script) to track your votes, and add your details to the [Validator incentives](/validator-incentives) page.

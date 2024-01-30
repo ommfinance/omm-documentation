@@ -9,7 +9,7 @@ sidebar_position: 5
 # Participate in governance
 Learn how to vote on proposals, discuss potential changes, and submit a proposal of your own.
 
-bOMM holders have the power to vote on changes to Omm and decide where money is spent. To participate in discussions about the future of Omm, visit the [Omm Discord channel](https://discord.com/invite/zZcQUGbpVk) and [forum.omm.finance](forum.omm.finance/).
+bOMM holders have the power to vote on changes to Omm and decide where money is spent. To participate in discussions about the future of Omm, visit the [Omm Discord channel](https://discord.com/invite/zZcQUGbpVk) and [forum.omm.finance](https://forum.omm.finance/).
 
 
 ## Vote on proposals {#vote}

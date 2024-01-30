@@ -12,7 +12,7 @@ sidebar_label: Vote for ICON validators
 
 Staked ICX includes the power to participate in ICON's voting system. In order to secure the network, traditionally-staked ICX requires you to vote for ICON validators ('nodes' that verify transactions for the blockchain). ICON validators earn ICX based on the number of votes they receive, and if you don't vote, you won't earn staking rewards.
 
-**sICX voting is optional**, but many prefer to exercise their power to support validators who build out the ecosystem or share rewards with voters. View [Validator incentives](/reference/validator-incentives) to see the specific incentives each validator has to offer.
+**sICX voting is optional**, but many prefer to exercise their power to support validators who build out the ecosystem or share rewards with voters. View [Validator incentives](/validator-incentives) to see the specific incentives each validator has to offer.
 
 You can delegate votes to ICON validators using sICX and/or bOMM:
 
