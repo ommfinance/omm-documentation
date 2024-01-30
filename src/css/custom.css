@@ -182,7 +182,7 @@ code {
 
 .navbar__title, .navbar__link {
   color: #49546a;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .navbar-sidebar {
@@ -388,25 +388,25 @@ code {
 .alert--primary {
   --ifm-alert-border-color: #00D3C2;
   border-left-width: 10px;
-  border-image: linear-gradient(to bottom, #9d4df1, #00d3c2) 1 100%;
+  border-image: linear-gradient(to top, #9d4df1, #00d3c2) 1 100%;
 }
 
 .alert--secondary {
   --ifm-alert-border-color: #00D3C2;
   border-left-width: 10px;
-  border-image: linear-gradient(to bottom, #9d4df1, #00d3c2) 1 100%;
+  border-image: linear-gradient(to top, #9d4df1, #00d3c2) 1 100%;
 }
 
 .alert--success {
   --ifm-alert-border-color: #00D3C2;
   border-left-width: 10px;
-  border-image: linear-gradient(to bottom, #36A5D2, #14CCC7 1 100%);
+  border-image: linear-gradient(to bottom, #14CCC7, #36A5D2) 1 100%;
 }
 
 .alert--info {
   --ifm-alert-border-color: #00D3C2;
   border-left-width: 10px;
-  border-image: linear-gradient(to bottom, #9d4df1, #00d3c2) 1 100%;
+  border-image: linear-gradient(to top, #9d4df1, #00d3c2) 1 100%;
 }
 
 .alert--warning {
@@ -424,7 +424,7 @@ code {
 .alert--note {
   --ifm-alert-border-color: #00D3C2;
   border-left-width: 10px;
-  border-image: linear-gradient(to bottom, #9d4df1, #00d3c2) 1 100%;
+  border-image: linear-gradient(to top, #9d4df1, #00d3c2) 1 100%;
 }
 
 
