@@ -1,0 +1,30 @@
+{
+  "id": "reference/validator-incentives",
+  "title": "Validator incentives",
+  "description": "View the incentives ICON validators offer to their voters.",
+  "source": "@site/docs/reference/validator-incentives.md",
+  "sourceDirName": "reference",
+  "slug": "/validator-incentives",
+  "permalink": "/validator-incentives",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "validator-incentives",
+    "title": "Validator incentives",
+    "description": "View the incentives ICON validators offer to their voters.",
+    "slug": "/validator-incentives",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "About the liquid staking pivot",
+    "permalink": "/liquid-staking-pivot"
+  },
+  "next": {
+    "title": "Protocol details",
+    "permalink": "/protocol-details"
+  }
+}

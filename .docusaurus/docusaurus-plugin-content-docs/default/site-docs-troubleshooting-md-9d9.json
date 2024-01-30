@@ -1,0 +1,30 @@
+{
+  "id": "troubleshooting",
+  "title": "Troubleshooting",
+  "description": "If you’re having trouble using Balanced, you can find solutions to common problems here.",
+  "source": "@site/docs/troubleshooting.md",
+  "sourceDirName": ".",
+  "slug": "/troubleshooting",
+  "permalink": "/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "id": "troubleshooting",
+    "title": "Troubleshooting",
+    "description": "If you’re having trouble using Balanced, you can find solutions to common problems here.",
+    "slug": "/troubleshooting",
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participate in governance",
+    "permalink": "/participate-governance"
+  },
+  "next": {
+    "title": "Technical docs",
+    "permalink": "/category/technical-docs"
+  }
+}

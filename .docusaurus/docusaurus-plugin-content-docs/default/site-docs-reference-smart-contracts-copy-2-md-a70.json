@@ -1,0 +1,30 @@
+{
+  "id": "reference/smart-contracts",
+  "title": "Smart contracts",
+  "description": "View all the smart contracts associated with Omm.",
+  "source": "@site/docs/reference/smart-contracts copy 2.md",
+  "sourceDirName": "reference",
+  "slug": "/smart-contracts",
+  "permalink": "/smart-contracts",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "smart-contracts",
+    "title": "Smart contracts",
+    "description": "View all the smart contracts associated with Omm.",
+    "slug": "/smart-contracts",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reference",
+    "permalink": "/category/reference"
+  },
+  "next": {
+    "title": "Smart contracts",
+    "permalink": "/smart-contracts"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "technical/liquidation-bot",
+  "title": "Liquidation bot",
+  "description": "Learn how to cover the debt of under-collateralised positions and earn up to a 10% profit.",
+  "source": "@site/docs/technical/liquidation-bot.md",
+  "sourceDirName": "technical",
+  "slug": "/liquidation-bot",
+  "permalink": "/liquidation-bot",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "liquidation-bot",
+    "title": "Liquidation bot",
+    "description": "Learn how to cover the debt of under-collateralised positions and earn up to a 10% profit.",
+    "slug": "/liquidation-bot",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "White paper",
+    "permalink": "/white-paper"
+  }
+}

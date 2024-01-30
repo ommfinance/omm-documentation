@@ -1,0 +1,30 @@
+{
+  "id": "lock-baln",
+  "title": "Lock up Balance Tokens",
+  "description": "Learn how to lock up Balance Tokens to get Boosted BALN (bBALN).",
+  "source": "@site/docs/lock-baln.md",
+  "sourceDirName": ".",
+  "slug": "/lock-baln",
+  "permalink": "/lock-baln",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "lock-baln",
+    "title": "Lock up Balance Tokens",
+    "description": "Learn how to lock up Balance Tokens to get Boosted BALN (bBALN).",
+    "slug": "/lock-baln",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stake and unstake ICX",
+    "permalink": "/stake-unstake"
+  },
+  "next": {
+    "title": "Participate in governance",
+    "permalink": "/participate-governance"
+  }
+}

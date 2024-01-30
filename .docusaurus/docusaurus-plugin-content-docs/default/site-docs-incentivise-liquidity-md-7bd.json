@@ -1,0 +1,30 @@
+{
+  "id": "incentivise-liquidity",
+  "title": "Incentivise liquidity pools",
+  "description": "Learn how to influence the BALN incentives for each liquidity pool.",
+  "source": "@site/docs/incentivise-liquidity.md",
+  "sourceDirName": ".",
+  "slug": "/incentivise-liquidity",
+  "permalink": "/incentivise-liquidity",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "id": "incentivise-liquidity",
+    "title": "Incentivise liquidity pools",
+    "description": "Learn how to influence the BALN incentives for each liquidity pool.",
+    "slug": "/incentivise-liquidity",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Lock up Balance Tokens",
+    "permalink": "/lock-baln"
+  },
+  "next": {
+    "title": "Participate in governance",
+    "permalink": "/participate-governance"
+  }
+}

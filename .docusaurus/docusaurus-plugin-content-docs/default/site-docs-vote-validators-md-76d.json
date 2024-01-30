@@ -1,0 +1,31 @@
+{
+  "id": "vote-validators",
+  "title": "Vote for ICON validators",
+  "description": "Learn how to use sICX and bOMM to participate in ICON governance.",
+  "source": "@site/docs/vote-validators.md",
+  "sourceDirName": ".",
+  "slug": "/vote-validators",
+  "permalink": "/vote-validators",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "vote-validators",
+    "title": "Vote for ICON validators",
+    "description": "Learn how to use sICX and bOMM to participate in ICON governance.",
+    "slug": "/vote-validators",
+    "sidebar_position": 3,
+    "sidebar_label": "Vote for ICON validators"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Stake and unstake ICX",
+    "permalink": "/stake-unstake"
+  },
+  "next": {
+    "title": "Lock up OMM",
+    "permalink": "/lock-omm"
+  }
+}

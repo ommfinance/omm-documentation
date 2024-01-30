@@ -1,0 +1,16 @@
+{
+  "title": "Technical docs",
+  "description": "Read about the inner workings of Balanced, interact with the smart contracts, and more.",
+  "slug": "/category/technical-docs",
+  "permalink": "/category/technical-docs",
+  "navigation": {
+    "previous": {
+      "title": "Manage a validator wallet",
+      "permalink": "/manage-validator"
+    },
+    "next": {
+      "title": "Smart contracts",
+      "permalink": "/smart-contracts"
+    }
+  }
+}

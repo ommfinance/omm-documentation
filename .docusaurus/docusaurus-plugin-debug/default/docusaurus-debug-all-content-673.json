@@ -1,0 +1,479 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/lisaverheul/GitHub/omm-documentation/sidebars.js",
+          "contentPath": "/Users/lisaverheul/GitHub/omm-documentation/docs",
+          "contentPathLocalized": "/Users/lisaverheul/GitHub/omm-documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "home",
+              "title": "Home",
+              "description": "The documentation site for Omm, a liquid staking protocol for the ICON blockchain.",
+              "source": "@site/docs/home.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "home",
+                "title": "Home",
+                "description": "The documentation site for Omm, a liquid staking protocol for the ICON blockchain.",
+                "slug": "/",
+                "sidebar_position": 1,
+                "sidebar_label": "Home"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Stake and unstake ICX",
+                "permalink": "/stake-unstake"
+              }
+            },
+            {
+              "id": "lock-omm",
+              "title": "Lock up OMM",
+              "description": "Learn how to lock up Omm Tokens to receive voting power.",
+              "source": "@site/docs/lock-omm.md",
+              "sourceDirName": ".",
+              "slug": "/lock-omm",
+              "permalink": "/lock-omm",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "lock-omm",
+                "title": "Lock up OMM",
+                "description": "Learn how to lock up Omm Tokens to receive voting power.",
+                "slug": "/lock-omm",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Vote for ICON validators",
+                "permalink": "/vote-validators"
+              },
+              "next": {
+                "title": "Participate in governance",
+                "permalink": "/participate-governance"
+              }
+            },
+            {
+              "id": "manage-validator",
+              "title": "Manage a validator wallet",
+              "description": "Learn how to claim rewards and monitor your ICX delegation.",
+              "source": "@site/docs/manage-validator.md",
+              "sourceDirName": ".",
+              "slug": "/manage-validator",
+              "permalink": "/manage-validator",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "id": "manage-validator",
+                "title": "Manage a validator wallet",
+                "description": "Learn how to claim rewards and monitor your ICX delegation.",
+                "slug": "/manage-validator",
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Participate in governance",
+                "permalink": "/participate-governance"
+              },
+              "next": {
+                "title": "Reference",
+                "permalink": "/category/reference"
+              }
+            },
+            {
+              "id": "participate-governance",
+              "title": "Participate in governance",
+              "description": "Learn how to vote on proposals, discuss potential changes, and submit a proposal of your own.",
+              "source": "@site/docs/participate-governance.md",
+              "sourceDirName": ".",
+              "slug": "/participate-governance",
+              "permalink": "/participate-governance",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "id": "participate-governance",
+                "title": "Participate in governance",
+                "description": "Learn how to vote on proposals, discuss potential changes, and submit a proposal of your own.",
+                "slug": "/participate-governance",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Lock up OMM",
+                "permalink": "/lock-omm"
+              },
+              "next": {
+                "title": "Manage a validator wallet",
+                "permalink": "/manage-validator"
+              }
+            },
+            {
+              "id": "reference/icx-delegation-script",
+              "title": "ICX delegation script",
+              "description": "If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.",
+              "source": "@site/docs/reference/icx-delegation-script.md",
+              "sourceDirName": "reference",
+              "slug": "/icx-delegation-script",
+              "permalink": "/icx-delegation-script",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "id": "icx-delegation-script",
+                "title": "ICX delegation script",
+                "description": "If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.",
+                "slug": "/icx-delegation-script",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Smart contracts",
+                "permalink": "/smart-contracts"
+              },
+              "next": {
+                "title": "Testnet app",
+                "permalink": "/testnet"
+              }
+            },
+            {
+              "id": "reference/liquid-staking-pivot",
+              "title": "About the liquid staking pivot",
+              "description": "Omm is no longer a money market. Here’s what you need to know.",
+              "source": "@site/docs/reference/liquid-staking-pivot.md",
+              "sourceDirName": "reference",
+              "slug": "/liquid-staking-pivot",
+              "permalink": "/liquid-staking-pivot",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "liquid-staking-pivot",
+                "title": "About the liquid staking pivot",
+                "description": "Omm is no longer a money market. Here’s what you need to know.",
+                "slug": "/liquid-staking-pivot",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Reference",
+                "permalink": "/category/reference"
+              },
+              "next": {
+                "title": "Validator incentives",
+                "permalink": "/validator-incentives"
+              }
+            },
+            {
+              "id": "reference/protocol-details",
+              "title": "Protocol details",
+              "description": "Learn about the token economics and technical details of Omm.",
+              "source": "@site/docs/reference/protocol-details.md",
+              "sourceDirName": "reference",
+              "slug": "/protocol-details",
+              "permalink": "/protocol-details",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "protocol-details",
+                "title": "Protocol details",
+                "description": "Learn about the token economics and technical details of Omm.",
+                "slug": "/protocol-details",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Validator incentives",
+                "permalink": "/validator-incentives"
+              },
+              "next": {
+                "title": "Smart contracts",
+                "permalink": "/smart-contracts"
+              }
+            },
+            {
+              "id": "reference/smart-contracts",
+              "title": "Smart contracts",
+              "description": "View all the smart contracts associated with Omm.",
+              "source": "@site/docs/reference/smart-contracts.md",
+              "sourceDirName": "reference",
+              "slug": "/smart-contracts",
+              "permalink": "/smart-contracts",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "smart-contracts",
+                "title": "Smart contracts",
+                "description": "View all the smart contracts associated with Omm.",
+                "slug": "/smart-contracts",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Protocol details",
+                "permalink": "/protocol-details"
+              },
+              "next": {
+                "title": "ICX delegation script",
+                "permalink": "/icx-delegation-script"
+              }
+            },
+            {
+              "id": "reference/testnet",
+              "title": "Testnet app",
+              "description": "Learn how to use Omm on the Lisbon testnet.",
+              "source": "@site/docs/reference/testnet.md",
+              "sourceDirName": "reference",
+              "slug": "/testnet",
+              "permalink": "/testnet",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "id": "testnet",
+                "title": "Testnet app",
+                "description": "Learn how to use Omm on the Lisbon testnet.",
+                "slug": "/testnet",
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ICX delegation script",
+                "permalink": "/icx-delegation-script"
+              }
+            },
+            {
+              "id": "reference/validator-incentives",
+              "title": "Validator incentives",
+              "description": "View the incentives ICON validators offer to their voters.",
+              "source": "@site/docs/reference/validator-incentives.md",
+              "sourceDirName": "reference",
+              "slug": "/validator-incentives",
+              "permalink": "/validator-incentives",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "validator-incentives",
+                "title": "Validator incentives",
+                "description": "View the incentives ICON validators offer to their voters.",
+                "slug": "/validator-incentives",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "About the liquid staking pivot",
+                "permalink": "/liquid-staking-pivot"
+              },
+              "next": {
+                "title": "Protocol details",
+                "permalink": "/protocol-details"
+              }
+            },
+            {
+              "id": "stake-unstake",
+              "title": "Stake and unstake ICX",
+              "description": "Learn how to convert ICX to sICX, and unstake it instantly.",
+              "source": "@site/docs/stake-unstake.md",
+              "sourceDirName": ".",
+              "slug": "/stake-unstake",
+              "permalink": "/stake-unstake",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "stake-unstake",
+                "title": "Stake and unstake ICX",
+                "description": "Learn how to convert ICX to sICX, and unstake it instantly.",
+                "slug": "/stake-unstake",
+                "sidebar_position": 2,
+                "sidebar_label": "Stake and unstake ICX"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Home",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Vote for ICON validators",
+                "permalink": "/vote-validators"
+              }
+            },
+            {
+              "id": "vote-validators",
+              "title": "Vote for ICON validators",
+              "description": "Learn how to use sICX and bOMM to participate in ICON governance.",
+              "source": "@site/docs/vote-validators.md",
+              "sourceDirName": ".",
+              "slug": "/vote-validators",
+              "permalink": "/vote-validators",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "vote-validators",
+                "title": "Vote for ICON validators",
+                "description": "Learn how to use sICX and bOMM to participate in ICON governance.",
+                "slug": "/vote-validators",
+                "sidebar_position": 3,
+                "sidebar_label": "Vote for ICON validators"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stake and unstake ICX",
+                "permalink": "/stake-unstake"
+              },
+              "next": {
+                "title": "Lock up OMM",
+                "permalink": "/lock-omm"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "home",
+                "label": "Home"
+              },
+              {
+                "type": "doc",
+                "id": "stake-unstake",
+                "label": "Stake and unstake ICX"
+              },
+              {
+                "type": "doc",
+                "id": "vote-validators",
+                "label": "Vote for ICON validators"
+              },
+              {
+                "type": "doc",
+                "id": "lock-omm"
+              },
+              {
+                "type": "doc",
+                "id": "participate-governance"
+              },
+              {
+                "type": "doc",
+                "id": "manage-validator"
+              },
+              {
+                "type": "category",
+                "label": "Reference",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "reference/liquid-staking-pivot"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/validator-incentives"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/protocol-details"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/smart-contracts"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/icx-delegation-script"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "reference/testnet"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Read about the inner workings of Balanced, interact with the smart contracts, and more.",
+                  "slug": "/category/reference",
+                  "permalink": "/category/reference"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        },
+        "unlisted": false
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

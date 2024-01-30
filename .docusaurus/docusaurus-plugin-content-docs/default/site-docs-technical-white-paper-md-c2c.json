@@ -1,0 +1,30 @@
+{
+  "id": "technical/white-paper",
+  "title": "White paper",
+  "description": "Learn about the token economics and technical details of Balanced.",
+  "source": "@site/docs/technical/white-paper.md",
+  "sourceDirName": "technical",
+  "slug": "/white-paper",
+  "permalink": "/white-paper",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "white-paper",
+    "title": "White paper",
+    "description": "Learn about the token economics and technical details of Balanced.",
+    "slug": "/white-paper",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Smart contracts",
+    "permalink": "/smart-contracts"
+  },
+  "next": {
+    "title": "Liquidation bot",
+    "permalink": "/liquidation-bot"
+  }
+}

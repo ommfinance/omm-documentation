@@ -1,0 +1,30 @@
+{
+  "id": "transfer-cross-chain",
+  "title": "Transfer assets cross-chain",
+  "description": "Learn how to move assets between ICON and supported blockchains.",
+  "source": "@site/docs/transfer-cross-chain.md",
+  "sourceDirName": ".",
+  "slug": "/transfer-cross-chain",
+  "permalink": "/transfer-cross-chain",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "transfer-cross-chain",
+    "title": "Transfer assets cross-chain",
+    "description": "Learn how to move assets between ICON and supported blockchains.",
+    "slug": "/transfer-cross-chain",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Supply liquidity",
+    "permalink": "/supply-liquidity"
+  },
+  "next": {
+    "title": "Claim rewards",
+    "permalink": "/claim-rewards"
+  }
+}

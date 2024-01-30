@@ -1,0 +1,30 @@
+{
+  "id": "manage-validator",
+  "title": "Manage a validator wallet",
+  "description": "Learn how to claim rewards and monitor your ICX delegation.",
+  "source": "@site/docs/manage-validator.md",
+  "sourceDirName": ".",
+  "slug": "/manage-validator",
+  "permalink": "/manage-validator",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "manage-validator",
+    "title": "Manage a validator wallet",
+    "description": "Learn how to claim rewards and monitor your ICX delegation.",
+    "slug": "/manage-validator",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Participate in governance",
+    "permalink": "/participate-governance"
+  },
+  "next": {
+    "title": "Reference",
+    "permalink": "/category/reference"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "home",
+          "docs": [
+            {
+              "id": "home",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "lock-omm",
+              "path": "/lock-omm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "manage-validator",
+              "path": "/manage-validator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "participate-governance",
+              "path": "/participate-governance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/icx-delegation-script",
+              "path": "/icx-delegation-script",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/liquid-staking-pivot",
+              "path": "/liquid-staking-pivot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/protocol-details",
+              "path": "/protocol-details",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/smart-contracts",
+              "path": "/smart-contracts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/testnet",
+              "path": "/testnet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/validator-incentives",
+              "path": "/validator-incentives",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "stake-unstake",
+              "path": "/stake-unstake",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vote-validators",
+              "path": "/vote-validators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/reference",
+              "path": "/category/reference",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "Home"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
