@@ -47,7 +47,7 @@ Community trackers don't pick up the votes cast via Omm, because the votes are r
 
 To verify how much ICX the [staking contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0) has delegated to a validator on behalf of Omm:
 
-1. Go to the [staknig contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0) and click the Read Contract tab.
+1. Go to the [staking contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0) and click the Read Contract tab.
 2. Find `getAddressDelegations`, then query Omm's lending pool contract address: `cxfb312bbd0a244b9e7bb5794c91f4e4acc41dea94`.
 3. Locate your validator address, then copy the value beside it.
 4. [Convert the hexadecimal value](https://www.rapidtables.com/convert/number/hex-to-decimal.html), then divide the result by 1,000,000,000,000,000,000 (10^18).
