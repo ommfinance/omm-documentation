@@ -20,10 +20,16 @@
 
 [data-theme='dark'] {
   --ifm-background-surface-color:#3f414a;
+  --ifm-background-color: #222328 !important;
 }
 
 
 /* Background colour */
+[data-theme='dark'] html {
+  background-color: #222328; 
+}
+
+
 #__docusaurus {
   background-color: #d8e0f2;
   max-width: 1300px;
