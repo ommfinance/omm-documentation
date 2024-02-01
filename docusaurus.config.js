@@ -61,11 +61,13 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Omm Docs',
+        title: 'Documentation',
         logo: {
-          alt: 'Omm Docs',
-          src: 'img/omm.svg',
-        },
+          alt: 'Omm',
+          src: 'img/omm-wordmark.svg',
+          srcDark: 'img/omm-wordmark-dark.svg',
+          },
+
         items: [
           {
             href: 'https://omm.finance',
