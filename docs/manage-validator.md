@@ -11,7 +11,7 @@ Learn how to claim rewards and monitor your ICX delegation.
 
 If you're an ICON validator, sICX and bOMM holders can delegate voting power to you. Your bOMM delegation also entitles you to a share of the protocol fee.
 
-**To qualify for delegation, your commission rate must be 10% or less.**
+All validators can earn a share of the fee, but **your commission rate must be 10% or less to receive ICX delegation**.
 
 To claim your rewards:
 

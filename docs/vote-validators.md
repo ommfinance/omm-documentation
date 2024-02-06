@@ -20,7 +20,8 @@ You can delegate votes to ICON validators using sICX and/or bOMM:
 - **bOMM:** Influence the default delegation for unmanaged sICX, and the percentage of ICX that validators earn from the protocol fee.
 
 
-Validators must have a commission rate of 10% or less to qualify for delegation.
+All validators can earn a share of the protocol fee, but they must have a commission rate of 10% or less to qualify for ICX delegation.
+
 
 ## Delegate your votes
 To adjust your delegation, open the [Vote page](https://app.omm.finance/#/vote/) and go to the Validators section, then:
