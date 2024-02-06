@@ -18,5 +18,3 @@ The Omm smart contracts were audited by ICON community developers prior to the l
 [Omm DAO Fund manager](https://tracker.icon.community/contract/cx48a83a6fbdaa205a060514fd23ad6871c070f896): `cx48a83a6fbdaa205a060514fd23ad6871c070f896`
 
 [Omm governance manager](https://tracker.icon.community/contract/cx8190de91c8831f382dcabdbc87968448380c4838): `cx8190de91c8831f382dcabdbc87968448380c4838`
-
-More details coming soon...

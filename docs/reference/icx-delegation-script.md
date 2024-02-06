@@ -9,11 +9,13 @@ sidebar_position: 5
 # ICX delegation script
 If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.
 
-bOMM holders can participate in ICON’s voting system by delegating ICX from the ICON market towards up to 5 ICON validators (see [Vote for ICON validators](/vote-validators)).
+:::warning Update required
+This script will be updated soon to accommodate the liquid staking pivot.
+:::
 
-Some validators offer voting incentives to ICX stakers. bOMM has more voting power than staked ICX – and it's cheaper – so validators can use the ICX delegation script to offer incentives to bOMM holders.
+sICX and bOMM holders have voting power, which they can [delegate to ICON validators](/vote-validators).
 
-The delegation script ([view on GitHub](https://github.com/openmoneymarket/openmoneymarket-mono/tree/development/scripts/prep-icx-delegations)) fetches the wallet addresses used to vote for a specific validator, and their voting power in ICX. The output is saved to a JSON file using this format:
+The [delegation script](https://github.com/openmoneymarket/openmoneymarket-mono/tree/development/scripts/prep-icx-delegations) fetches the wallet addresses used to vote for a specific validator, and their voting power in ICX. The output is saved to a JSON file using this format:
 
 ```
 {
@@ -58,4 +60,4 @@ To verify how much ICX the [staking contract](https://tracker.icon.community/con
 ## Promote your incentives
 [Vote for ICON validators](/vote-validators) includes details about validator incentives that support Omm users. The app also indicates which validators offer incentives, so it's easier for voters to choose.
 
-If you offer incentives, reach out on Discord so we can add your details to the [Validator incentives page](/validator-incentives).
+If you offer incentives, [reach out on Discord](https://discord.com/invite/zZcQUGbpVk) or [file an issue on GitHub](https://github.com/ommfinance/omm-documentation/issues/new) so we can add your details to the app and [Validator incentives page](/validator-incentives).

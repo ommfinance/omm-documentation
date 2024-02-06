@@ -9,12 +9,14 @@ sidebar_position: 2
 # Validator incentives
 View the incentives ICON validators offer to their voters.
 
-ICON validators earn ICX based on the number of votes they receive, so many offer incentives for people to vote for them.
+ICON validators earn ICX based on the number of votes they receive, so many offer incentives to vote for them.
 
-bOMM holders also determine the default delegation and the percentage of ICX that each validator earns from the protocol fee, which may unlock additional incentives.
+sICX holders can delegate their voting power through Omm. bOMM holders can also set the default sICX delegation, and the percentage of ICX that each validator earns from the protocol fee.
 
 :::tip Incentivise your node
-If you're a validator who wants to incentivise bOMM and sICX voters, [learn how to use the ICX delegation script](/icx-delegation-script). To include or adjust the details of your incentives, [reach out on Discord](https://discord.com/invite/zZcQUGbpVk) or [file an issue on GitHub](https://github.com/ommfinance/omm-documentation/issues/new).
+If you're a validator who wants to incentivise bOMM and sICX voters, learn how to [manage a validator wallet](/manage-validator) and [use the ICX delegation script](/icx-delegation-script).
+
+To add or adjust the details of your incentives, [reach out on Discord](https://discord.com/invite/zZcQUGbpVk) or [file an issue on GitHub](https://github.com/ommfinance/omm-documentation/issues/new).
 :::
 
 ## Validators with incentives
