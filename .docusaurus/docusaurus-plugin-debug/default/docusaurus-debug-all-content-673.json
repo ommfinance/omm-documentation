@@ -436,7 +436,7 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Read about the inner workings of Balanced, interact with the smart contracts, and more.",
+                  "description": "Learn about the liquid staking pivot, validator incentives, and technical details about Omm.",
                   "slug": "/category/reference",
                   "permalink": "/category/reference"
                 }

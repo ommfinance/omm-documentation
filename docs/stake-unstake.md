@@ -17,7 +17,12 @@ To convert your ICX to sICX (and vice versa), go to the [Stake page](https://app
 
 ## Stake ICX
 
-<img src="/img/stake.png" alt="The Staked ICX panel, open to the Stake tab. You can convert ICX to sICX and view a chart showing the historical staking APR." width="100%" /> 
+<picture>
+  <source srcSet="/img/stake-dark.png" media="(prefers-color-scheme: dark)" />
+  <source srcSet="/img/stake.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img src="/img/stake.png" alt="The Staked ICX panel, open to the Stake tab. You can convert ICX to sICX and view a chart showing the historical staking APR." width="100%" />
+</picture>
+
 
 To get Staked ICX (sICX), enter the amount of ICX to stake and complete the transaction.
 
@@ -32,7 +37,12 @@ By default, your sICX votes will be delegated based on the preference of bOMM ho
 
 ## Unstake ICX
 
-<img src="/img/unstake.png" alt="The Staked ICX panel, open to the Unstake tab. You can convert sICX to ICX instantly, or wait for the unstaking period. A chart shows the trend of unstaking requests." width="100%" /> 
+<picture>
+  <source srcSet="/img/unstake-dark.png" media="(prefers-color-scheme: dark)" />
+  <source srcSet="/img/unstake.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img src="/img/unstake.png" alt="The Staked ICX panel, open to the Unstake tab. You can convert sICX to ICX instantly, or wait for the unstaking period. A chart shows the trend of unstaking requests." width="100%" />
+</picture>
+
 
 To convert sICX to ICX, enter the amount of sICX to unstake and choose the unstaking method:
 

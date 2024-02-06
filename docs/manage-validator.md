@@ -7,14 +7,23 @@ sidebar_position: 6
 ---
 
 # Manage a validator wallet
-IIf you're an ICON validator, you'll earn ICX each day based on the percentage of bOMM voting power delegated towards you.
+Learn how to claim rewards and monitor your ICX delegation.
+
+If you're an ICON validator, sICX and bOMM holders can delegate voting power to you. Your bOMM delegation also entitles you to a share of the protocol fee.
+
+**To qualify for delegation, your commission rate must be 10% or less.**
 
 To claim your rewards:
 
 1. Go to the [Vote page](https://app.omm.finance/#/vote) and sign in with the wallet that receives your validator rewards.
 2. Click 'Claim rewards' in the Validator Rewards section, then complete the transaction.
 
-<img src="/img/validator-rewards.png" alt="The Validator Rewards section, showing a space to claim rewards, view total income earned, and your bOMM + sICx delegation." width="100%" /> 
+
+<picture>
+  <source srcSet="/img/validator-rewards-dark.png" media="(prefers-color-scheme: dark)" />
+  <source srcSet="/img/validator-rewards.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img src="/img/validator-rewards.png" alt="The Validator Rewards section, showing a space to claim rewards, view total income earned, and your bOMM + sICX delegation." width="100%" />
+</picture>
 
 :::tip Manage your delegation
 If you plan to share rewards with voters, use the [ICX delegation script](/icx-delegation-script) to track your votes, and add your details to the [Validator incentives](/validator-incentives) page.

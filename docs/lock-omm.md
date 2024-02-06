@@ -11,7 +11,11 @@ sidebar_position: 4
 
 The Omm Token (OMM) is Omm's governance token. After you obtain some, you can lock it for up to 4 years to hold Boosted OMM (bOMM), a non-transferable token that gives you the ability to [vote for ICON validators](/vote-validators) and [participate in governance](/participate-governance).
 
-<img src="/img/voting-power.png" alt="The Voting Power section, showing Boosted OMM and delegation information." width="100%"  /> 
+<picture>
+  <source srcSet="/img/voting-power-dark.png" media="(prefers-color-scheme: dark)" />
+  <source srcSet="/img/voting-power.png" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img src="/img/voting-power.png" alt="The Voting Power section, showing Boosted OMM and delegation information." width="100%" />
+</picture>
 
 <br />
 <br />

@@ -31,9 +31,11 @@ The delegation script ([view on GitHub](https://github.com/openmoneymarket/openm
 First, make sure you have Python 3 and PIP installed on your device. Then:
 
 1. Install the required libraries:
+
 ```pip3 install -r requirements.txt```
 
 2. Run the script to fetch a list of wallet addresses and their voting power for a specific validator (also known as a P-Rep):
+
 ```
 python3 prep-icx-delegations.py -prep PREP_ADDRESS
 python3 prep-icx-delegations.py -prep hx0000000000000000000000000000000000000000

@@ -1,74 +1,117 @@
 {
-  "/markdown-page-173": {
-    "__comp": "1f391b9e",
+  "/__docusaurus/debug-775": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "522fc56f"
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/config-fd9": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/content-85b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
     },
-    "content": "393be207"
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-119": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/metadata-c1e": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/registry-7ce": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/__docusaurus/debug/routes-906": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugc-77-e00"
+    }
+  },
+  "/markdown-page-173": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-page-522-9c8"
+    },
+    "content": "content---markdown-page-393-028"
   },
   "/-a6c": {
-    "__comp": "5e95c892",
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "248d20f3"
+      "plugin": "plugin---248-0e4"
     }
   },
   "/-382": {
-    "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---935-fcf"
   },
   "/-dae": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/category/reference-1b1": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "667c18b4"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-reference-667-9ca"
   },
   "/icx-delegation-script-8fd": {
-    "__comp": "17896441",
-    "content": "de983101"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---icx-delegation-scriptde-9-be1"
   },
   "/liquid-staking-pivot-dc4": {
-    "__comp": "17896441",
-    "content": "722d4cf5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---liquid-staking-pivot-722-031"
   },
   "/lock-omm-676": {
-    "__comp": "17896441",
-    "content": "243de5b2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---lock-omm-243-734"
   },
   "/manage-validator-bad": {
-    "__comp": "17896441",
-    "content": "1a13c67d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---manage-validator-1-a-1-42e"
   },
   "/participate-governance-510": {
-    "__comp": "17896441",
-    "content": "ebabcb9b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---participate-governanceeba-3d6"
   },
   "/protocol-details-061": {
-    "__comp": "17896441",
-    "content": "3f9c9ab2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-details-3-f-9-3e3"
   },
   "/smart-contracts-5bd": {
-    "__comp": "17896441",
-    "content": "8cc9c0fa"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---smart-contracts-8-cc-af0"
   },
   "/stake-unstake-38e": {
-    "__comp": "17896441",
-    "content": "ef3e5153"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---stake-unstakeef-3-e2d"
   },
   "/testnet-8de": {
-    "__comp": "17896441",
-    "content": "2b8a2dcd"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---testnet-2-b-8-f21"
   },
   "/validator-incentives-fd5": {
-    "__comp": "17896441",
-    "content": "e831099b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---validator-incentivese-83-8a7"
   },
   "/vote-validators-7ca": {
-    "__comp": "17896441",
-    "content": "76d04b7a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---vote-validators-76-d-477"
   },
   "/-a24": {
-    "__comp": "17896441",
-    "content": "3d9c95a4"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---3-d-9-71e"
   }
 }
