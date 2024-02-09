@@ -15,6 +15,8 @@ The Omm smart contracts were audited by ICON community developers prior to the l
 
 [Delegation](https://tracker.icon.community/contract/cx841f29ec6ce98b527d49a275e87d427627f1afe5): `cx841f29ec6ce98b527d49a275e87d427627f1afe5`
 
+[DEX](https://tracker.icon.community/contract/cxa0af3165c08318e988cb30993b3048335b94af6c): `cxa0af3165c08318e988cb30993b3048335b94af6c`
+
 [Fee Distribution](https://tracker.icon.community/contract/cx553b05df18e9d7c00d8bf4675e579cbbb23c4b30): `cx553b05df18e9d7c00d8bf4675e579cbbb23c4b30`
 
 [Lending Pool Core](https://tracker.icon.community/contract/cxfb312bbd0a244b9e7bb5794c91f4e4acc41dea94): `cxfb312bbd0a244b9e7bb5794c91f4e4acc41dea94`

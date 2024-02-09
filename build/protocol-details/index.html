@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.1.1">
 <title data-rh="true">Protocol details | Omm Docs</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" property="og:image" content="https://docs.omm.finance/img/documentation-social-card.png"><meta data-rh="true" property="og:type" content="website"><meta data-rh="true" property="og:url" content="https://docs.omm.finance/"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Protocol details | Omm Docs"><meta data-rh="true" name="description" content="Learn about the token economics and technical details of Omm."><meta data-rh="true" property="og:description" content="Learn about the token economics and technical details of Omm."><link data-rh="true" rel="icon" href="/img/favicon-32x32.png"><link data-rh="true" rel="canonical" href="https://docs.omm.finance/protocol-details"><link data-rh="true" rel="alternate" href="https://docs.omm.finance/protocol-details" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.omm.finance/protocol-details" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.d55a3cf5.css">
-<script src="/assets/js/runtime~main.1d3cac40.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.fec49770.js" defer="defer"></script>
 <script src="/assets/js/main.4f20d510.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -18,6 +18,7 @@
 <li><strong>Smart contracts</strong> set the delegation preference for sICX they hold</li>
 </ul>
 <p>Validators must set a commission rate of 10% or less to qualify for delegation.</p>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="protocol-fee">Protocol fee<a href="#protocol-fee" class="hash-link" aria-label="Direct link to Protocol fee" title="Direct link to Protocol fee">​</a></h2>
 <p>To sustain the protocol, Omm collects 10% of the daily staking rewards and distributes it in these ratios:</p>
 <ul>
@@ -25,6 +26,11 @@
 <li><strong>40%</strong> to ICON validators based on their bOMM delegation</li>
 <li><strong>10%</strong> to the sICX team wallet (as proposed in <a href="https://app.omm.finance/#/vote/proposal/18" target="_blank" rel="noopener noreferrer">OIP 18</a>)</li>
 </ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="staking">Staking<a href="#staking" class="hash-link" aria-label="Direct link to Staking" title="Direct link to Staking">​</a></h2>
+<p>ICX has a built-in reward rate for staking and voting on the ICON Network, but it requires you to lock up your tokens. To keep your funds in a liquid state, you can convert ICX to sICX (Staked ICX), which represents a share of ICX held in a staking contract.</p>
+<p>All ICX held in the contract is staked, and delegated according to the preferences of sICX and bOMM holders. ICX staking rewards are claimed and restaked daily (minus the 10% protocol fee), so the ICX value of sICX increases over time.</p>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="unstaking">Unstaking<a href="#unstaking" class="hash-link" aria-label="Direct link to Unstaking" title="Direct link to Unstaking">​</a></h2>
 <p>Omm offers two options to unstake sICX:</p>
 <ol>
@@ -32,6 +38,6 @@
 <li>Wait for the unstaking period</li>
 </ol>
 <p>The instant unstake option swaps sICX for ICX via the ICX queue on <a href="https://balanced.network/" target="_blank" rel="noopener noreferrer">Balanced</a>.</p>
-<p>If you choose to wait, your ICX gets added to the unstaking queue and will be available to claim within ~7 days. Depending on demand for sICX, it may unstake much faster.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/validator-incentives"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Validator incentives</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/smart-contracts"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Smart contracts</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#icx-delegation" class="table-of-contents__link toc-highlight">ICX delegation</a></li><li><a href="#protocol-fee" class="table-of-contents__link toc-highlight">Protocol fee</a></li><li><a href="#unstaking" class="table-of-contents__link toc-highlight">Unstaking</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© Omm 2024. All rights reserved.</div></div></div></footer></div>
+<p>If you choose to wait, your unstaking request gets added to the queue and your ICX will be ready to claim within ~7 days. Depending on demand for sICX, it may unstake much sooner.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/validator-incentives"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Validator incentives</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/smart-contracts"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Smart contracts</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#icx-delegation" class="table-of-contents__link toc-highlight">ICX delegation</a></li><li><a href="#protocol-fee" class="table-of-contents__link toc-highlight">Protocol fee</a></li><li><a href="#staking" class="table-of-contents__link toc-highlight">Staking</a></li><li><a href="#unstaking" class="table-of-contents__link toc-highlight">Unstaking</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">© Omm 2024. All rights reserved.</div></div></div></footer></div>
 </body>
 </html>
