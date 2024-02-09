@@ -17,6 +17,7 @@ Omm provides an easier way.
 
 It converts ICX to Staked ICX (sICX), an asset that earns staking rewards while remaining available to use. Omm claims and stakes rewards daily, so the ICX value of sICX increases over time. When you need ICX, you can pay a 1% fee to swap sICX for ICX instantly. You don't even need to care about ICON validators — but if you vote for them, they may reward you for it.
 
+<br />
 Use Omm to:
 - Convert ICX to sICX
 - Unstake sICX instantly or initiate the unstaking process
@@ -34,6 +35,9 @@ Find Omm on:
 - [Discord](https://discord.com/invite/zZcQUGbpVk)
 - [Twitter](https://twitter.com/ommfinance)
 - [GitHub](https://github.com/ommfinance)
+
+<br />
+[Download the Omm branding pack (967 KB).](/resources/omm-branding-pack.zip)
 
 <br />
 :::note Where are the money markets?
