@@ -49,13 +49,16 @@ python3 prep-icx-delegations.py -prep hx0000000000000000000000000000000000000000
 ## Verify the votes
 Community trackers don't pick up the votes cast via Omm, because the votes are routed through the Balanced staking contract before they're assigned to a validator.
 
-To verify how much ICX the [staking contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0) has delegated to a validator on behalf of Omm:
+To verify how much ICX the [liquid staking contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0) has delegated to a validator via bOMM:
 
-1. Go to the [staking contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0) and click the Read Contract tab.
-2. Find `getAddressDelegations`, then query Omm's lending pool contract address: `cxfb312bbd0a244b9e7bb5794c91f4e4acc41dea94`.
-3. Locate your validator address, then copy the value beside it.
-4. [Convert the hexadecimal value](https://www.rapidtables.com/convert/number/hex-to-decimal.html), then divide the result by 1,000,000,000,000,000,000 (10^18).
+1. Go to the [staking contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0), then click the Contract tab.
+2. Find `getActualUserDelegationPercentage`, then query Omm's lending pool contract: `cxfb312bbd0a244b9e7bb5794c91f4e4acc41dea94`.
+3. Locate your validator address, then copy the hex value beside it.
+4. [Convert the value to decimal](https://www.rapidtables.com/convert/number/hex-to-decimal.html) and divide it by 1,000,000,000,000,000,000 (10^18). Save this result as `percentage`.
+5. Find `getUndelegatedICX` under the Read Contract tab, then [convert the value to decimal](https://www.rapidtables.com/convert/number/hex-to-decimal.html) and divide by 10^18. Save the value as `undelegatedICX`.
+6. Calculate the ICX delegated to your validator address with ```(percentage/100) * undelegatedICX```
 
+You can also verify teh votes in the app if you sign in with a validator-associated wallet and view the Validator Rewards section on the Vote page.
 
 ## Promote your incentives
 [Vote for ICON validators](/vote-validators) includes details about validator incentives that support Omm users. The app also indicates which validators offer incentives, so it's easier for voters to choose.
