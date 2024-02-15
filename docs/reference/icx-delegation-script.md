@@ -1,21 +1,18 @@
 ---
 id: icx-delegation-script
 title: ICX delegation script
-description: If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.
+description: Learn how ICON validators can use the ICX delegation script to track the votes they receive through Omm.
 slug: /icx-delegation-script
 sidebar_position: 5
 ---
 
 # ICX delegation script
-If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.
+Learn how ICON validators can use the ICX delegation script to track the votes they receive through Omm.
 
-:::warning Update required
-This script will be updated soon to accommodate the liquid staking pivot.
-:::
 
-sICX and bOMM holders have voting power, which they can [delegate to ICON validators](/vote-validators).
+sICX and bOMM holders have ICX voting power, which they can [delegate to ICON validators](/vote-validators).
 
-The [delegation script](https://github.com/openmoneymarket/openmoneymarket-mono/tree/development/scripts/prep-icx-delegations) fetches the wallet addresses used to vote for a specific validator, and their voting power in ICX. The output is saved to a JSON file using this format:
+The [delegation script](https://github.com/openmoneymarket/openmoneymarket-mono/tree/development/scripts/prep-icx-delegations) fetches the wallet addresses that use bOMM to vote for a specific validator, and their voting power in ICX. The output is saved to a JSON file using this format:
 
 ```
 {
@@ -47,18 +44,19 @@ python3 prep-icx-delegations.py -prep hx0000000000000000000000000000000000000000
 
 
 ## Verify the votes
-Community trackers don't pick up the votes cast via Omm, because the votes are routed through the Balanced staking contract before they're assigned to a validator.
+Community trackers don't pick up the votes cast with bOMM, because the votes are routed through the staking contract before they're assigned to a validator.
 
 To verify how much ICX the [liquid staking contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0) has delegated to a validator via bOMM:
 
 1. Go to the [staking contract](https://tracker.icon.community/contract/cx43e2eec79eb76293c298f2b17aec06097be606e0), then click the Contract tab.
 2. Find `getActualUserDelegationPercentage`, then query Omm's lending pool contract: `cxfb312bbd0a244b9e7bb5794c91f4e4acc41dea94`.
 3. Locate your validator address, then copy the hex value beside it.
-4. [Convert the value to decimal](https://www.rapidtables.com/convert/number/hex-to-decimal.html) and divide it by 1,000,000,000,000,000,000 (10^18). Save this result as `percentage`.
-5. Find `getUndelegatedICX` under the Read Contract tab, then [convert the value to decimal](https://www.rapidtables.com/convert/number/hex-to-decimal.html) and divide by 10^18. Save the value as `undelegatedICX`.
-6. Calculate the ICX delegated to your validator address with ```(percentage/100) * undelegatedICX```
+4. [Convert the hex value to decimal](https://www.rapidtables.com/convert/number/hex-to-decimal.html), then divide it by 1,000,000,000,000,000,000 (10^18). Save this result as `percentage`.
+5. Find `getUndelegatedICX` under the Contract tab, then [convert the hex value to decimal](https://www.rapidtables.com/convert/number/hex-to-decimal.html) and divide by 10^18. Save the value as `undelegatedICX`.
+6. Calculate the ICX delegated to your validator address with ```(percentage ÷ 100) x undelegatedICX```
 
-You can also verify teh votes in the app if you sign in with a validator-associated wallet and view the Validator Rewards section on the Vote page.
+You can also verify your bOMM votes from the [Vote page](https://app.omm.finance/#/vote/) if you sign in with a validator-associated wallet.
+
 
 ## Promote your incentives
 [Vote for ICON validators](/vote-validators) includes details about validator incentives that support Omm users. The app also indicates which validators offer incentives, so it's easier for voters to choose.
