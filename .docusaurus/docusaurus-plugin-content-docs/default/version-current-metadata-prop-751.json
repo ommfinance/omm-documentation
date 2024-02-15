@@ -132,7 +132,7 @@
     "reference/icx-delegation-script": {
       "id": "reference/icx-delegation-script",
       "title": "ICX delegation script",
-      "description": "If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.",
+      "description": "Learn how ICON validators can use the ICX delegation script to track the votes they receive through Omm.",
       "sidebar": "tutorialSidebar"
     },
     "reference/liquid-staking-pivot": {

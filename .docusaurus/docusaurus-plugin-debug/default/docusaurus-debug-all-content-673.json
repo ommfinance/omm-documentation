@@ -137,7 +137,7 @@
             {
               "id": "reference/icx-delegation-script",
               "title": "ICX delegation script",
-              "description": "If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.",
+              "description": "Learn how ICON validators can use the ICX delegation script to track the votes they receive through Omm.",
               "source": "@site/docs/reference/icx-delegation-script.md",
               "sourceDirName": "reference",
               "slug": "/icx-delegation-script",
@@ -150,7 +150,7 @@
               "frontMatter": {
                 "id": "icx-delegation-script",
                 "title": "ICX delegation script",
-                "description": "If you're an ICON validator, learn how to use this script to track the votes you receive through Omm.",
+                "description": "Learn how ICON validators can use the ICX delegation script to track the votes they receive through Omm.",
                 "slug": "/icx-delegation-script",
                 "sidebar_position": 5
               },
