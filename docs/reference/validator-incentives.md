@@ -47,6 +47,8 @@ Find them on Twitter: [twitter.com/FOMOmental](https://twitter.com/FOMOmental).
 ### FRĀMD
 133,333 FRMD tokens are distributed to voters each month. 15% of their daily ICX rewards and 50% of NFT secondary sale royalties are shared with people who stake the FRMD token.
 
+bOMM voters also receive 60% of the rewards FRĀMD earns from the Omm protocol fee, which will be converted to FRMD and distributed to voters.
+
 Find them on Twitter: [twitter.com/framdnft](https://twitter.com/framdnft).
 
 <br />
