@@ -102,7 +102,7 @@ export default {
     },
     "footer": {
       "style": "light",
-      "copyright": "© Omm 2024. All rights reserved.",
+      "copyright": "© Omm 2025. All rights reserved.",
       "links": []
     },
     "prism": {

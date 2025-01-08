@@ -11,7 +11,7 @@ Omm is no longer a money market. Here’s what you need to know.
 
 Omm experienced a rocky start to 2023 when a hacker stole $1.9 million from the money markets.
 
-While most of the funds weren’t recovered, Omm received numerous donations from the community, and a group of individuals & organisations stepped forward to cover the outstanding loss. In exchange, the community approved [OIP 17](https://app.omm.finance/?ref=blog.omm.finance#/vote/proposal/17) to compensate them with 50% of the OMM in the DAO Fund and 50% of the DAO Fund’s profits until the amount is repaid.
+While most of the funds weren’t recovered, Omm received numerous donations from the community, and a group of individuals & organisations stepped forward to cover the outstanding loss. In exchange, the community approved [OIP 17](https://app.omm.finance/#/vote/proposal/17) to compensate them with 50% of the OMM in the DAO Fund and 50% of the DAO Fund’s profits until the amount is repaid.
 
 All funds were restored thanks to the community’s support, so no loss was borne by Omm users. Omm was able to resume repay/withdraw functionality for the money markets within a month, but you can no longer supply or borrow assets.
 
@@ -30,7 +30,7 @@ But, thanks to OIP 17, we had an obligation to keep the protocol generating valu
 
 The team behind sICX agreed to a merger, which would see Omm transform into a liquid staking project, similar to Ethereum-based protocols like [Lido](https://lido.fi/) and [Rocket Pool](https://rocketpool.net/).
 
-[OIP 18](https://app.omm.finance/?ref=blog.omm.finance#/vote/proposal/18) was proposed and approved, and work commenced on the liquid staking product, which we launched mid-2023.
+[OIP 18](https://app.omm.finance/#/vote/proposal/18) was proposed and approved, and work commenced on the liquid staking product, which we launched mid-2023.
 
 
 ### What is liquid staking?
@@ -52,9 +52,9 @@ OMM inflation will be halted once v2 launches, so to sustain the protocol, Omm w
 
 What is the 10% fee used for?
 
-- 50% will go to the DAO Fund (of which 50% goes toward repaying the exploit, as proposed in [OIP 17](https://app.omm.finance/?ref=blog.omm.finance#/vote/proposal/17)
+- 50% will go to the DAO Fund (of which 50% goes toward repaying the exploit, as proposed in [OIP 17](https://app.omm.finance/#/vote/proposal/17)
 - 40% will go to ICON validators based on the votes they receive from bOMM holders
-- 10% will go to the sICX team wallet (as proposed in [OIP 18](https://app.omm.finance/?ref=blog.omm.finance#/vote/proposal/18))
+- 10% will go to the sICX team wallet (as proposed in [OIP 18](https://app.omm.finance/#/vote/proposal/18))
 
 
 bOMM holders will be able to vote for the validators of their choice, much as they do now. Only in v2, you’ll be able to vote for more than 5 validators, you’ll have more fine-grained control over the amounts, and validators will earn ICX based on their bOMM delegation.
@@ -67,7 +67,7 @@ bOMM holders dictate the default delegation preference of sICX, but sICX holders
 
 ### Money market and liquidity participants
 
-The OMM incentives for markets and liquidity pools were halted after the approval of [OIP 19](https://app.omm.finance/?ref=blog.omm.finance#/vote/proposal/19). If you’ve participated in these activities, it’s best to remove your funds before Omm 2.0 launches.
+The OMM incentives for markets and liquidity pools were halted after the approval of [OIP 19](https://app.omm.finance/#/vote/proposal/19). If you’ve participated in these activities, it’s best to remove your funds before Omm 2.0 launches.
 
 We’ll deprecate the existing interface towards the end of 2023, after which you’ll have to interact with the smart contracts to withdraw your funds.
 
@@ -96,7 +96,7 @@ Any change in voting power will largely depend on the total amount of floating s
 
 bOMM holders determine which validators earn a share of the sICX fee, so Omm has the potential to become a launchpad for the ICON ecosystem.
 
-If bOMM holders want more economic incentives for themselves, they can vote for validators who share their ICX rewards. If they want a specific project to succeed because they hold or earn that project’s tokens, they can vote for the validators who work on it. And if they feel that the ICON ecosystem is lacking in certain areas, like marketing or design, they can vote for validators who offer those services.
+If bOMM holders want a specific project to succeed because they hold or earn that project’s tokens, they can vote for the validators who work on it. And if they feel that the ICON ecosystem is lacking in certain areas, like marketing or design, they can vote for validators who offer those services.
 
 Alongside the CPS, Omm will help ICON participants earn additional revenue, which they can use to improve and expand the ICON ecosystem — something that benefits all ICX holders.
 

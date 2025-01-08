@@ -56,9 +56,3 @@ To verify how much ICX the [liquid staking contract](https://tracker.icon.commun
 6. Calculate the ICX delegated to your validator address with ```(percentage ÷ 100) x undelegatedICX```
 
 You can also verify your bOMM votes from the [Vote page](https://app.omm.finance/#/vote/) if you sign in with a validator-associated wallet.
-
-
-## Promote your incentives
-[Vote for ICON validators](/vote-validators) includes details about validator incentives that support Omm users. The app also indicates which validators offer incentives, so it's easier for voters to choose.
-
-If you offer incentives, [reach out on Discord](https://discord.com/invite/zZcQUGbpVk) or [file an issue on GitHub](https://github.com/ommfinance/omm-documentation/issues/new) so we can add your details to the app and [Validator incentives page](/validator-incentives).

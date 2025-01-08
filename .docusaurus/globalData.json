@@ -56,11 +56,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "reference/validator-incentives",
-              "path": "/validator-incentives",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "stake-unstake",
               "path": "/stake-unstake",
               "sidebar": "tutorialSidebar"

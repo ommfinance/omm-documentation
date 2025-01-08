@@ -66,13 +66,6 @@
           },
           {
             "type": "link",
-            "label": "Validator incentives",
-            "href": "/validator-incentives",
-            "docId": "reference/validator-incentives",
-            "unlisted": false
-          },
-          {
-            "type": "link",
             "label": "Protocol details",
             "href": "/protocol-details",
             "docId": "reference/protocol-details",
@@ -157,12 +150,6 @@
       "id": "reference/testnet",
       "title": "Testnet app",
       "description": "Learn how to use Omm on the Lisbon testnet.",
-      "sidebar": "tutorialSidebar"
-    },
-    "reference/validator-incentives": {
-      "id": "reference/validator-incentives",
-      "title": "Validator incentives",
-      "description": "View the incentives ICON validators offer to their voters.",
       "sidebar": "tutorialSidebar"
     },
     "stake-unstake": {

@@ -15,7 +15,7 @@ ICX staking rewards average ~6.5% per year. To earn them traditionally, you need
 
 Omm provides an easier way.
 
-It converts ICX to Staked ICX (sICX), an asset that earns staking rewards while remaining available to use. Omm claims and stakes rewards daily, so the ICX value of sICX increases over time. When you need ICX, you can pay a 1% fee to swap sICX for ICX instantly. You don't even need to care about ICON validators — but if you vote for them, they may reward you for it.
+It converts ICX to Staked ICX (sICX), an asset that earns staking rewards while remaining available to use. Omm claims and stakes rewards daily, so the ICX value of sICX increases over time. When you need ICX, you can pay a 1% fee to swap sICX for ICX instantly. You don't even need to care about ICON validators unless you want to give a specific team your support.
 
 <br />
 Use Omm to:
