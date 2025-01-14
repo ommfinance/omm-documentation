@@ -13,6 +13,8 @@ If you're an ICON validator, sICX and bOMM holders can delegate voting power to 
 
 All validators can earn a share of the fee, but **your commission rate must be 10% or less to receive ICX delegation**.
 
+Validators must be in the top 100 to appear in the list, which updates weekly.
+
 To claim your rewards:
 
 1. Go to the [Vote page](https://app.omm.finance/#/vote) and sign in with the wallet that receives your validator rewards.
